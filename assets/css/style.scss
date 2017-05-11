@@ -3,11 +3,13 @@
 
 @import "{{ site.theme }}";
 
+a {
+  text-decoration: none;
+}
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
   font-weight: bold;
   color: #155799;
 }
-
 .posts {
   text-decoration: none;
   width: 100%;
