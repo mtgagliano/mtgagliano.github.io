@@ -5,7 +5,7 @@ title: Blog
 <h1>{{ page.title }}</h1>
 
 {% for post in site.posts %}
-	<h4><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>&nbsp;<small>{{ post.date | date_to_string }}</small></h4>
+	<h3><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>&nbsp;<small style="float: right;">{{ post.date | date_to_string }}</small></h3>
 {% endfor %}
 	
 <ul class="posts">
