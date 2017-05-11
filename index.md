@@ -1,5 +1,5 @@
-## Welcome to Matt's Blog
+## Welcome to my Blog
 
-You can use the [editor on GitHub](https://github.com/mtgagliano/mtgagliano.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+I'll be publishing a weekly blog on topics that interest me, new technology I come across, current events, and more.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Stay tuned for more. 😎
