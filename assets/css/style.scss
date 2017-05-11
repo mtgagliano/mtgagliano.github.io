@@ -28,6 +28,7 @@ a {
 }
 
 footer ul {
+  float: right;
   list-style-type: none;
   overflow: hidden;
 }
@@ -36,4 +37,8 @@ footer ul li {
 }
 footer ul li a {
   display: block;
+  padding: 0 5px;
+}
+footer ul li a:hover {
+  color: #155799;
 }
