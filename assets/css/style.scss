@@ -26,3 +26,14 @@ a {
 .posts h3 {
   margin-bottom: 0;
 }
+
+footer ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+footer ul li {
+  float: left;
+}
+footer ul li a {
+  display: block;
+}
