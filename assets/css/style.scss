@@ -3,6 +3,9 @@
 
 @import "{{ site.theme }}";
 
+a .posts {
+  text-decoration: none;
+}
 .posts {
   width: 100%;
   background: #f4f5f6;
