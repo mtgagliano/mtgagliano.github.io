@@ -3,13 +3,20 @@
 
 @import "{{ site.theme }}";
 
-a .posts {
-  text-decoration: none;
+.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
+  font-weight: bold;
+  color: #155799;
 }
+
 .posts {
+  text-decoration: none;
   width: 100%;
   background: #f4f5f6;
   padding: 20px;
   border-radius: 4px;
   margin: 20px 0;
+}
+.posts:hover {
+  box-shadow: -10px 10px 70px 0 rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
 }
