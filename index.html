@@ -11,4 +11,11 @@ title: Matt Gagliano
 
 <h1>Latest Post</h1>
 {% for post in site.posts limit:1 %}
+  <a href="{{ post.url }}" title="{{ post.title }}">
+    <div class="posts">
+      <h3>{{ post.title }}</h3>
+      <span>{{ post.date | date_to_string }}</span>
+      <div>{{ post.content |truncatehtml | truncatewords: 60 }}</div>
+    </div>
+  </a>
 {% endfor %}
