@@ -9,6 +9,7 @@ title: Blog
     <div class="posts">
       <h3>{{ post.title }}</h3>
       <span>{{ post.date | date_to_string }}</span>
+      <div>{{ post.content |truncatehtml | truncatewords: 60 }}</div>
     </div>
   </a>
 {% endfor %}
