@@ -29,10 +29,10 @@ a {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   transition: all 0.2s ease-in-out;
 }
-.posts h3 {
+.posts h2 {
   margin-bottom: 0;
 }
-.posts .date {
+.posts > p {
   color: grey;
   margin-top: 0;
 }
