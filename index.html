@@ -13,8 +13,8 @@ title: Matt Gagliano
 {% for post in site.posts limit:1 %}
   <a href="{{ post.url }}" title="{{ post.title }}">
     <div class="posts">
-      <h3>{{ post.title }}</h3>
-      <p>{{ post.date | date_to_string }}</p>
+      <h2>{{ post.title }}</h2>
+      <p class="date">{{ post.date | date_to_string }}</p>
       <div>{{ post.content |truncatehtml | truncatewords: 60 }}</div>
     </div>
   </a>
