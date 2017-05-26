@@ -10,8 +10,8 @@ title: Matt Gagliano
 <p>Stay tuned for my first post. 😎</p>
 
 <h1>Latest Post</h1>
-{% for post in site.posts limit:1 %}
-  <a href="{{ post.url }}" title="{{ post.title }}">
+{% for post in site.posts %}
+  <a href="{{ post.url }}">
     <div class="posts">
       <h2>{{ post.title }}</h2>
       <p class="date">{{ post.date | date_to_string }}</p>
