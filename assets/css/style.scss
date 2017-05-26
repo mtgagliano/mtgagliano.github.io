@@ -37,19 +37,6 @@ a {
   margin-top: 0;
 }
 
-footer ul {
-  float: right;
-  list-style-type: none;
-  overflow: hidden;
-}
-footer ul li {
-  float: left;
-}
-footer ul li a {
-  display: block;
-  padding: 0 5px;
-  color: #819198;
-}
-footer ul li a:hover {
-  color: #155799;
+footer span {
+  text-align: center;
 }
