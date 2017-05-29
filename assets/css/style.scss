@@ -12,8 +12,9 @@
 }
 .project-tagline a {
   color: white;
+  opacity: 0.7;
 }
-.project-tagline span a:hover {
+.project-tagline a:hover {
   opacity: 1;
 }
 .project-tagline span {
