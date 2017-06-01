@@ -49,6 +49,14 @@ a {
   color: grey;
   margin-top: 0;
 }
+.back {
+  background: #f4f5f6;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+.back:hover {
+  filter: brightness(95%);
+}
 
 footer {
   text-align: center;
