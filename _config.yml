@@ -2,3 +2,7 @@ theme: jekyll-theme-cayman
 title: [Matt Gagliano]
 permalink: /blog/:year/:month/:day/:title
 description: [📍CT/NY 🏢 Product Manager @ Veritonic 🎨 UI/UX Design]
+collections:
+  my_categories:
+    output: true
+    permalink: /blog/category/:name/
