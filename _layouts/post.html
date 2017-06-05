@@ -1,9 +1,17 @@
 ---
 layout: default
 ---
+
+{% assign category = site.my_categories | where: "slug", post.category %}
+{% assign category = category[0] %}
+{% if category %}
+    {% capture category_content %}<a class="label" href="{{ category.url }}">{{ category.name }}</a>{% endcapture %}
+{% endif %}
+
 <a href="/" class="back">&larr; Back</a>
 <h1>{{ page.title }}</h1>
 <p class="meta">{{ page.date | date_to_string }}</p>
+<p id="post-meta">{{ category_content }}</p>
 
 <div class="post">
   {{ content }}
