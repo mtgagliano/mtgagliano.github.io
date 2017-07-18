@@ -6,6 +6,7 @@
 .page-header {
   background-color: #155799;
   background-image: linear-gradient(120deg, #155799, #41a7f6);
+  padding: 2rem 0;
 }
 .propic {
   border-radius: 100%;
@@ -19,6 +20,33 @@ a {
   font-weight: bold;
   color: #155799;
 }
+
+.sub-header {
+  background: #f4f5f6;
+  padding: 15px;
+  color: #313438;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border-bottom: 1px solid #d8d8da;
+}
+.sub-header ul {
+  list-style-type: none;
+  padding: 0;
+}
+.sub-header ul li {
+  display: inline-block;
+  margin: 20px 5px;
+}
+.sub-header ul li a {
+  background: #313438;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+.sub-header ul li a:hover {
+  background: black;
+}
+
 .posts {
   text-decoration: none;
   width: 100%;
@@ -40,13 +68,16 @@ a {
   color: grey;
   margin-top: 0;
 }
-.back {
+.button {
   background: #f4f5f6;
   padding: 10px 15px;
   border-radius: 4px;
 }
-.back:hover {
-  filter: brightness(95%);
+.button:hover {
+  background: #d8d8da;;
+}
+.disabled {
+  cursor: not-allowed;
 }
 
 footer {
@@ -59,4 +90,11 @@ footer {
 }
 .site-footer-credits {
   color: #f9f9f9;
+}
+
+.tags {
+  border: solid 1px #d8d8da;
+  border-radius: 4px;
+  padding: 5px 15px;
+  margin-left: 15px
 }

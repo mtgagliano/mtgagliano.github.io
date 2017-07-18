@@ -4,8 +4,9 @@ title: Matt Gagliano
 ---
 
 <h1>Latest Posts</h1>
-{% for post in site.posts %}
-  <a href="{{ post.url }}">
+
+{% for post in paginator.posts %}
+  <a href="{{ post.url }}#sub" title="{{ post.title }}">
     <div class="posts">
       <h2>{{ post.title }}</h2>
       <p class="date">{{ post.date | date_to_string }}</p>
@@ -13,3 +14,17 @@ title: Matt Gagliano
     </div>
   </a>
 {% endfor %}
+
+<div class="pagination" style="text-align: center; margin-top: 35px;">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}#sub" class="previous button">Previous</a>
+  {% else %}
+    <span class="previous button disabled">Previous</span>
+  {% endif %}
+    <span class="page_number" style="margin: 0 10px;">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}#sub" class="next button">Next</a>
+  {% else %}
+    <span class="next button disabled">Next</span>
+  {% endif %}
+</div>

@@ -9,6 +9,7 @@
     <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    {% seo %}
   </head>
   <body>
     <section class="page-header">
@@ -18,6 +19,15 @@
       <a href="https://www.linkedin.com/in/matttgagliano/" target="_blank"><img src="/assets/img/linkedin.svg" width="60"></a>
       <a href="https://twitter.com/matttgagliano" target="_blank"><img src="/assets/img/twitter.svg" width="60"></a>
       <a href="https://www.instagram.com/matttgagliano/" target="_blank"><img src="/assets/img/instagram.svg" width="60"></a>
+    </section>
+    
+    <section class="sub-header" id="sub">
+      <ul>
+        <li><a href="/blog#sub">all</a></li>
+        {% for tag in site.tags %}		
+          <li><a href="/tags/{{ tag[0] }}#sub">{{ tag[0] }}</a></li>
+        {% endfor %}
+      </ul>
     </section>
 
     <section class="main-content">

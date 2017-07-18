@@ -1,8 +1,13 @@
 theme: jekyll-theme-cayman
 title: [Matt Gagliano]
-permalink: /blog/:year/:month/:day/:title
 description: [📍CT/NY 🏢 Product Manager @ Veritonic 🎨 UI/UX Design]
-collections:
-  my_categories:
-    output: true
-    permalink: /blog/category/:name/
+    
+# Plugins
+gems:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  
+paginate: 3
+paginate_path: "/page:num/"

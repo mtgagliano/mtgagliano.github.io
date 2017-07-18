@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Blog
+title: 'Tag: webdev'
 ---
 
-<h1>All Posts</h1>
-{% for post in site.posts %}
+<h1>{{ page.title }}</h1>
+{% for post in site.tags.webdev %}
   <a href="{{ post.url }}#sub" title="{{ post.title }}">
     <div class="posts">
       <h2>{{ post.title }}</h2>
