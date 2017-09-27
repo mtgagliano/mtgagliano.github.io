@@ -9,7 +9,7 @@ By now, I’m sure you’ve heard the story: if you had invested just $100 in Bi
 
 But you’ve also heard of the inherently volatile nature of the current cryptocurrency market, and the spikes and subsequent crashes. Have you missed the boat? Have all the profits and gains already been taken? Is it too late to invest in Bitcoin and Altcoins?
 
-##Think Long-Term
+## Think Long-Term
 
 Before investing in anything, having confidence in its long-term value is a must. Would you purchase stock in a company with poor leadership, dwindling revenues, lack of innovation, and no sign of improvement? Of course not. In this way, the decision parameters to invest in Bitcoin and Altcoins are much the same. So, what is the long-term viability of cryptocurrencies?
 
@@ -19,7 +19,7 @@ Yet amidst this incredible boom in e-commerce, the centuries-old, inefficient sy
 
 In an interconnected and global economy, the future lies in decentralized currency. Blockchain technology has the power to increase efficiency, security, and accessibility of computing and transactions at scale. And with that in mind, the long-term viability of cryptocurrency looks promising.
 
-##Dollar-Cost Averaging
+## Dollar-Cost Averaging
 
 Buy low, sell high? Easier said than done. In the post-mainstream world of Bitcoin with skyrocketing valuations, it’s easy to believe the get-rich-quick ship has sailed. Well, it has. But that’s okay when thinking LONG-TERM.
 
@@ -29,7 +29,7 @@ With this in mind, embracing a disciplined approach for long-term gains is neces
 
 Instead of buying in with a lump sum at today’s valuation, schedule small, consistent investments each week or month despite its valuation at the time. Whether it’s $25, $50, $100, or $1000, these weekly or monthly investments help to defray the short term losses (and possibly gains). But long-term, the real-world usage of cryptocurrencies will increase, and so will their value.
 
-##Eyes on the Market
+## Eyes on the Market
 
 Keeping a level head in the cryptocurrency market is no easy feat. But keeping up to date with news, while also keeping everything in perspective, can help make blockchain currencies a worthwhile investment.
 
