@@ -27,7 +27,7 @@ Could this be the height of the market in the short-term? Quite possibly. But co
 
 With this in mind, I believe embracing a disciplined approach for long-term profits is necessary for entry into the cryptocurrency market.
 
-Instead of buying in with a lump sum at today’s valuation, I recommend making schedule small, consistent investments each week or month despite its valuation at the time. Whether it’s $25, $50, $100, or $1000, these weekly or monthly investments help to defray the short term losses (and possibly gains). But long-term, the real-world usage of cryptocurrencies will increase, and so will their value.
+Instead of buying in with a lump sum at today’s valuation, I schedule small, consistent investments each week or month despite its valuation at the time. Whether it’s $25, $50, $100, or $1000, these weekly or monthly investments help to defray the short term losses (and possibly gains). But long-term, the real-world usage of cryptocurrencies will increase, and so will their value.
 
 ## Eyes on the Market
 
