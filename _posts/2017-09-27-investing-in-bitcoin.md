@@ -21,7 +21,7 @@ In an interconnected and global economy, the future lies in decentralized curren
 
 ## Dollar-Cost Averaging
 
-Buy low, sell high? Easier said than done. In the post-mainstream world of Bitcoin with skyrocketing valuations, it’s easy to believe the get-rich-quick ship has sailed. Well, it has. But that’s okay when thinking LONG-TERM.
+Buy low, sell high? Easier said than done. In the post-mainstream world of Bitcoin with skyrocketing valuations, it’s easy to believe the get-rich-quick ship has sailed. Well, it has. But that’s okay when thinking *long-term*.
 
 Could this be the height of the market in the short-term? Quite possibly. But considering the real potential for adoption and use at critical mass, Bitcoin has barely scratched the surface.
 
