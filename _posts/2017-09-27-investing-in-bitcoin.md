@@ -25,7 +25,7 @@ Buy low, sell high? Easier said than done. In the post-mainstream world of Bitco
 
 Could this be the height of the market in the short-term? Quite possibly. But considering the real potential for adoption and use at critical mass, Bitcoin has barely scratched the surface.
 
-With this in mind, embracing a disciplined approach for long-term gains is necessary for entry into the cryptocurrency market.
+With this in mind, embracing a disciplined approach for long-term profits is necessary for entry into the cryptocurrency market.
 
 Instead of buying in with a lump sum at today’s valuation, schedule small, consistent investments each week or month despite its valuation at the time. Whether it’s $25, $50, $100, or $1000, these weekly or monthly investments help to defray the short term losses (and possibly gains). But long-term, the real-world usage of cryptocurrencies will increase, and so will their value.
 
