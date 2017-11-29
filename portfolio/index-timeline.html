@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Official Website of Matt Gagliano - Entrepreneur, Designer, Student">
+    <meta name="author" content="Matt Gagliano">
+    <link rel="icon" href="img/icon.png">
+
+    <title>Matt Gagliano - Official Website</title>
+
+    <!-- CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  	<link href="css/main.css" rel="stylesheet">
+  	
+  	<!-- Fonts -->
+  	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  	<script src="https://use.fontawesome.com/594f2c92e6.js"></script>
+    <script src="js/smooth-scroll.js"></script>
+    
+  </head>
+
+  <body>
+  
+    <div class="jumbotron">
+      <div class="container intro">
+        <p><img src="img/matt2.jpg" alt="Matt Gagliano" width="200" height="200" style="border-radius: 100px; border: solid 2px #f2f2f2;"></p>
+        <p>My name is Matt Gagliano.</p>
+        <h1>I am <span class="element" style="color: #0075c4;"></span></h1>
+      </div>
+      <div class="down">
+        <p style="font-size: 50px;"><a data-scroll href="#down" role="button"><i class="fa fa-chevron-down fa-fw"></i></a></p>
+      </div>
+    </div>
+    
+    <div class="container-fluid" style="color: #7f8c97; background-color: #f2f2f2;"  id="down">
+      <section id="cd-timeline" class="cd-container">
+    		<div class="cd-timeline-block">
+    			<div class="cd-timeline-img cd-picture">
+    				<span>2016</span>
+    			</div> <!-- cd-timeline-img -->
+    
+    			<div class="cd-timeline-content">
+    				<h2>UConn Stamford</h2>
+    				<p>Transfered into the Digital Media and Design program at UConn Stamford with a concentration in Digital Media Strategies for Business.</p>
+    			</div> <!-- cd-timeline-content -->
+    		</div> <!-- cd-timeline-block -->
+    
+    		<div class="cd-timeline-block">
+    			<div class="cd-timeline-img cd-movie">
+    				<span>2016</span>
+    			</div> <!-- cd-timeline-img -->
+    
+    			<div class="cd-timeline-content">
+    				<h2>Product Management Internship</h2>
+    				<p>Interned at Veritonic, a marketing intelligence platform for music in advertising. Responsible for product design, including front-end website and marketing materials.</p>
+    			</div> <!-- cd-timeline-content -->
+    		</div> <!-- cd-timeline-block -->
+    
+    		<div class="cd-timeline-block">
+    			<div class="cd-timeline-img cd-picture">
+    				<span>2015</span>
+    			</div> <!-- cd-timeline-img -->
+    
+    			<div class="cd-timeline-content">
+    				<h2>Co-Founded BeachParking.com</h2>
+    				<p>BeachParking.com is a website that focuses on providing information and advance reservations to beachgoers.</p>
+    			</div> <!-- cd-timeline-content -->
+    		</div> <!-- cd-timeline-block -->
+    
+    		<div class="cd-timeline-block">
+    			<div class="cd-timeline-img cd-location">
+    				<span>2010</span>
+    			</div> <!-- cd-timeline-img -->
+    
+    			<div class="cd-timeline-content">
+    				<h2>Learned Web Design</h2>
+    				<p>From 2010 to 2015 and beyond, I've learned and honed my web design and development skills. I am proficient in HTML and CSS, and continuing my ongoing JavaScript education.</p>
+    			</div> <!-- cd-timeline-content -->
+    		</div> <!-- cd-timeline-block -->
+    
+    		</div> <!-- cd-timeline-block -->
+    	</section> <!-- cd-timeline -->
+    </div>
+    
+    <div class="container" style="padding: 40px 20px;">
+      <center>
+        <h1>Get In Touch</h1>
+      </center>
+      <div class="row">
+		  	<div class="col-md-4 center">
+			  	<a href="mailto:mtgagliano@gmail.com" target="_blank"><img src="img/contact/mail.png" class="social"></a>
+			  	<p>Email me at <a href="mailto:mtgagliano@gmail.com">mtgagliano@gmail.com</a>.</p>
+		  	</div>
+		  	<div class="col-md-4 center">
+			  	<a href="https://www.linkedin.com/in/gaglianomatt" target="_blank"><img src="img/contact/linkedin.png" class="social"></a>
+			  	<p>Connect with me on <a href="https://www.linkedin.com/in/gaglianomatt" target="_blank">LinkedIn</a>.</p>
+		  	</div>
+		  	<div class="col-md-4 center">
+			  	<a href="https://twitter.com/matttgagliano" target="_blank"><img src="img/contact/twitter.png" class="social"></a>
+			  	<p>Follow me <a href="https://twitter.com/matttgagliano" target="_blank">@matttgagliano</a>.</p>
+		  	</div>
+	  	</div>
+    </div>
+    
+    <div class="container-fluid" style="background: #313438; height: 100px; color: white; position: relative;">
+      <center>
+        <p class="logo">&copy;2017 Matt Gagliano</p>
+      </center>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script>
+      jQuery(document).ready(function($){
+      	var $timeline_block = $('.cd-timeline-block');
+      
+      	//hide timeline blocks which are outside the viewport
+      	$timeline_block.each(function(){
+      		if($(this).offset().top > $(window).scrollTop()+$(window).height()*0.75) {
+      			$(this).find('.cd-timeline-img, .cd-timeline-content').addClass('is-hidden');
+      		}
+      	});
+      
+      	//on scolling, show/animate timeline blocks when enter the viewport
+      	$(window).on('scroll', function(){
+      		$timeline_block.each(function(){
+      			if( $(this).offset().top <= $(window).scrollTop()+$(window).height()*0.75 && $(this).find('.cd-timeline-img').hasClass('is-hidden') ) {
+      				$(this).find('.cd-timeline-img, .cd-timeline-content').removeClass('is-hidden').addClass('bounce-in');
+      			}
+      		});
+      	});
+      });
+      
+      smoothScroll.init();
+
+      $(function(){
+          $(".element").typed({
+            strings: ["a Designer.", "a Developer.", "a Student.", "an Entrepreneur.", "an Innovator."],
+            typeSpeed: 0
+          });
+      });
+    </script>
+  
+  </body>
+</html>
