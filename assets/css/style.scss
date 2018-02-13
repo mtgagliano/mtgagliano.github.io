@@ -84,6 +84,25 @@ a {
 footer {
   text-align: center;
 }
+
+@media screen and (max-width: 42em) {
+  .bio {
+    padding: 0 1rem;
+  }
+}
+@media screen and (max-width: 64em) and (min-width: 42em) {
+  .bio {
+    padding: 0 4rem;
+  }
+}
+@media screen and (min-width: 64em) {
+  .bio {
+    max-width: 64rem;
+    padding: 0 6rem;
+    margin: 0 auto;
+  }
+}
+
 .site-footer {
   padding: 2rem 1rem;
   margin-top: 0;
