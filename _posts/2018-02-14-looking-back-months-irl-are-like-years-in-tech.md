@@ -48,8 +48,8 @@ As voice and audio continue to lead the way, new ways to experience products, se
 
 Another consideration with voice/audio is the growing need for advertisers to optimize sound around their audience. At [Veritonic](https://www.veritonic.com), we’ve been helping brands do just that. With the tools available to analyze audio effectiveness, brands can now more effectively connect with their customers beyond the screen.
 
-While these three things, Machine Learning, Crypto, and Voice are each individually at the top of my mind, I am also interested in the possibility of overlap between some or all of these things.
+While these three things (Machine Learning, Crypto, and Voice) are each individually at the top of my mind, I am also interested in the possibility of overlap between some or all of these technologies.
 
-Going forward, I will be watching how these things play out, and looking to design, develop, and build solutions in these spaces.
+Going forward, I will be watching how these areas expand, and looking to design, develop, and build solutions in these spaces.
 
 Awesome stuff to come!
