@@ -2,14 +2,12 @@
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
     <meta charset="UTF-8">
-    <title>{{ page.title | default: site.title }}</title>
-    <meta name="description" content="Matt Gagliano designs and builds digital products, services, and experiences in the NYC area through collaboration with diverse groups of people, creating innovative applications from new ideas."/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% seo %}
     <meta name="theme-color" content="#157878">
     <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    {% seo %}
     <script src="https://use.fontawesome.com/80f88041f2.js"></script>
   </head>
   <body>
