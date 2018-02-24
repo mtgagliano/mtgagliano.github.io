@@ -23,3 +23,5 @@ gems:
   
 paginate: 3
 paginate_path: "/page:num/"
+
+google_analytics: UA-114712624-1
