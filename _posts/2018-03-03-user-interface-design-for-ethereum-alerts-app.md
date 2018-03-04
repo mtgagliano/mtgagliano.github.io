@@ -1,7 +1,7 @@
 ---
 layout: post
 tags: design
-title: "User Interface Experiments with Ethereum Alerts App"
+title: "User Interface Design for Ethereum Alerts App"
 date: 2018-03-03
 ---
 
