@@ -3,6 +3,7 @@ layout: post
 tags: blockchain
 title: "Investing in Bitcoin and Altcoins: Better Late Than Never?"
 date: 2017-09-27
+image: /assets/img/posts/bitcoin.jpg
 ---
 
 By now, I’m sure you’ve heard the story: if you had invested just $100 in Bitcoin on January 1st, 2011, it would be worth over $1 million today. By now, you’ve also seen the news articles of 15 year olds striking it rich overnight, of 1000%+ ROIs, and of governments, business leaders, and celebrities diversifying their investments with cryptocurrency. And then, it hits you: FOMO, or the Fear Of Missing Out.

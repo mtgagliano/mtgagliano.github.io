@@ -3,6 +3,7 @@ layout: post
 tags: webdev
 title: "Building A Website Or Blog With Jekyll"
 date: 2017-06-01
+image: /assets/img/posts/jekyll.png
 ---
 
 Plugin updates, paid hosting, MySQL databases, hacking PHP, and settings buried deep in the admin panel. These are just a few of the common pain points many users experience with Wordpress. For anyone maintaining a small, personal website or blog, Wordpress is overkill. And while it's extremely versatile in many respects, it's not *simple*. 

@@ -3,6 +3,7 @@ layout: post
 tags: meta
 title: "Looking Back: Months IRL are like Years in Tech"
 date: 2018-02-14
+image: /assets/img/nyc.jpg
 ---
 
 Much has happened since my last blog post. Back in September, I discussed my strategy on investing in bitcoin. And since then, we’ve seen everything from unbelievable all-time-highs to panic-inducing corrections. In that roller-coaster of a ride, I’ve grown to have a certain respect for and confidence in Bitcoin. Not in its price or valuation per se, but in its fundamental power — in both the blockchain technology that underlies it and its future as a store of value. And my strategy from September holds strong.
