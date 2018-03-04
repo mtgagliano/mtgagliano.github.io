@@ -3,7 +3,7 @@ layout: post
 tags: design
 title: "User Interface Design for Ethereum Alerts App"
 date: 2018-03-03
-image: /assets/img/nyc.jpg
+image: /assets/img/posts/ethereum-alerts/main-ui.png
 ---
 
 In my [last post]({{ site.baseurl }}{% post_url 2018-02-14-looking-back-months-irl-are-like-years-in-tech %}), I promised to cover a few of the cool things I’ve been working on over the past few months. Back in late summer/early fall 2017, as the cryptocurrency market was steadily growing, [@falicon](https://twitter.com/falicon) and I were looking for a way to automatically notify ourselves if (or really, *when*) Ethereum’s price hit certain targets.
