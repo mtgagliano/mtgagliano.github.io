@@ -5,7 +5,7 @@ title: "User Interface Experiments with Ethereum Alerts App"
 date: 2018-03-03
 ---
 
-In my [last post]({{ site.baseurl }}{% post_url 2018-02-14-looking-back-months-irl-are-like-years-in-tech %}), I promised to cover a few of the cool things I’ve been working on over the past few months. Back in late summer/early fall 2017, as the cryptocurrency market was steadily growing, [@falicon](https://twitter.com/falicon) and I were looking for a way to automatically notify ourselves if (or really, when) Ethereum’s price hit certain targets.
+In my [last post]({{ site.baseurl }}{% post_url 2018-02-14-looking-back-months-irl-are-like-years-in-tech %}), I promised to cover a few of the cool things I’ve been working on over the past few months. Back in late summer/early fall 2017, as the cryptocurrency market was steadily growing, [@falicon](https://twitter.com/falicon) and I were looking for a way to automatically notify ourselves if (or really, *when*) Ethereum’s price hit certain targets.
 
 After some searching around the interwebs, we could not (at the time) find an application that would accomplish exactly what we were looking for. So we set out to build it ourselves as a rainy day project.
 
