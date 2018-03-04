@@ -8,7 +8,7 @@ title: Blog
   <a href="{{ post.url }}" title="{{ post.title }}">
     <div class="posts">
       <h2>{{ post.title }}</h2>
-      <p class="date">{{ post.date | date_to_string }}</p>
+      <p class="date">{{ post.date | date_to_long_string }}</p>
       <div>{{ post.content | strip_html | truncatehtml | truncatewords: 60 }}</div>
     </div>
   </a>
