@@ -69,7 +69,7 @@ Also included is a ‘Forgot Your Passcode?’ option which, when selected, expa
 
 ![Ethereum Alerts App User Interface Design by Matt Gagliano showing Alert Management editing section]({{ site.baseurl }}/assets/img/posts/ethereum-alerts/manage-ui.png "Manage Alerts User Interface Design for Ethereum Alerts App")
 
-While Ethereum Alerts is no longer live, and many more (and better) crypto alerts solutions have entered the market since, it was still a fun project to work on for a rainy day.
+While Ethereum Alerts is no longer live, and many more (and better) crypto alerts solutions have entered the market since, it was still a fun project to work on.
 
 In fact, one of the greatest things about design and development is the ability to build something simply because you can, and just because you want to. While apps may come and go, the learning experience and creative energy stays with you along the way, and helps make each project more fun, more engaging, and (hopefully) more useful than the last.
 
