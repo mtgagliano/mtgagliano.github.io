@@ -36,7 +36,7 @@ The second day followed a similar pattern with Version 2. This time, the specs o
 
 In similar fashion, attendees worked through the process of building out their next version of their site, all while gaining a greater understanding of web development and troubleshooting as a whole.
 
-At the end of the workshop, attendees were left with their own website Version 2.0, on which they could continue to learn by building.
+At the end of the workshop, attendees were left with their own website Version 2.0, on which they could continue to learn by experimentation.
 
 Not only did it provide fundamental baseline understanding of website development, but it also served as a primer for real-world agile software development (in which application versions or features are built and delivered frequently, and with continuous iteration).
 
