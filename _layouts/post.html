@@ -6,7 +6,9 @@ layout: default
 <h1>{{ page.title }}</h1>
 <p>
   {{ page.date | date_to_string }}&nbsp;
-  <a class="button" href="/tags/{{ page.tags }}">{{ page.tags }}</a>
+  {% for tag in page.tags %}
+    <a class="button" href="/tags/{{ tag }}/">{{ tag }}</a>
+  {% endfor %}
 </p>
 
 <div class="post">
