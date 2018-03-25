@@ -20,7 +20,7 @@ These features that were added with each new project or each new version were th
 
 ![Matt Gagliano hosts a web development workshop at UConn Stamford]({{ site.baseurl }}/assets/img/posts/learning-by-building/day-1.jpg "Matt Gagliano Hosting Web Development Workshop")
 
-Each project began with an idea, a vision for what we wanted to build. We almost always didn’t fully know how to do it, but we knew what we wanted. And that goal or vision was the driving force of our education and exploration.
+Each project began with an idea, a vision for what we wanted to build. We almost always didn’t fully know how to do it, but we knew what we wanted. And that goal or vision was the motivation for our education and exploration.
 
 The best and fastest way to learn anything seems to be to simply (or not-so) learn by building, and using the multitude of awesome resources online to slowly work towards creating your vision, version by version.
 
