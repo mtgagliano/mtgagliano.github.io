@@ -14,7 +14,7 @@ In the weeks before the first workshop, we had the chance to really take an intr
 
 It struck me then that I hadn’t learned the core concepts of web at all, and especially not via the route of traditional educational strategy. And almost all developers I know are in the same boat.
 
-There were no “Fundamentals of Web Design 101” classes, or “Core Concepts of HTML, CSS, & Javascript” seminars. What I do remember, however, are the specific projects that I completed along the way and, in particular, the “features” that each of these projects showcased, which became invaluable building blocks for future projects.
+There were no “Fundamentals of Web Design 101” classes, or “Core Concepts of HTML, CSS, & Javascript” seminars. What I do remember, however, are the specific projects that I completed along the way and, in particular, the “features” that each of these projects showcased, which became invaluable building blocks for future endeavours.
 
 These features that were added with each new project or each new version were the driving force of our learning experience. The education was achieved through the completion of a goal, and not through the comprehension of underlying theory with little real-world application.
 
