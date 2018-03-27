@@ -1,7 +1,7 @@
 ---
 layout: post
 tags: [ webdev, events ]
-title: "Learning by Building and the Version-Based Vision"
+title: "Learning by Building, Version by Version"
 date: 2018-03-25
 image: /assets/img/posts/learning-by-building/day-2.jpg
 ---
