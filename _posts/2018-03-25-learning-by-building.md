@@ -42,4 +42,4 @@ Not only did it provide fundamental baseline understanding of website developmen
 
 All this is nothing new. It’s been clear for years that traditional education models don’t work quite the same in the software development world as they do in Science, Medical, or Law tracks.
 
-In learning web development, it’s much faster to learn by building your vision, version by version, for what you want to create. It’s incredibly frustrating at times, by almost always extraordinarily rewarding. And when in doubt, just Google it.
+In learning web development, it’s much faster to learn by building your vision, version by version, for what you want to create. It’s incredibly frustrating at times, but almost always extraordinarily rewarding. And when in doubt, just Google it.
