@@ -13,7 +13,7 @@ social:
     - https://github.com/mtgagliano
 url: "https://www.mattgagliano.com"
 logo: /assets/img/propic.jpg
-    
+
 # Plugins
 gems:
   - jekyll-paginate
@@ -21,7 +21,8 @@ gems:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-sitemap
-  
+  - jekyll-feed
+
 paginate: 3
 paginate_path: "/page:num/"
 
