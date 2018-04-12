@@ -23,7 +23,7 @@ gems:
   - jekyll-sitemap
   - jekyll-feed
 
-paginate: 3
+paginate: 5
 paginate_path: "/page:num/"
 
 google_analytics: UA-114712624-1
