@@ -14,12 +14,9 @@ social:
 url: "https://www.mattgagliano.com"
 logo: /assets/img/propic.jpg
 
-# Plugins
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-feed
   - jekyll-sitemap
   - jekyll-feed
 
