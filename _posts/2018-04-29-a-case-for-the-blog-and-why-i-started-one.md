@@ -14,7 +14,7 @@ I needed a home base, an online repository of who I am, what I do, and what I th
 
 The usual suite of social media accounts are great, but there is a semblance of impermanency about them. Posts can get lost in the noise, you delete them in favor of newer content, or the platform itself may fall out of popularity entirely, and your carefully cultivated presence will mean nothing without some sort of bridge.
 
-That’s not to say that social media is bad, or ineffective at reaching an audience. Obviously, it’s quite the opposite. But that bridge, which can serve as the foundational layer to an effective online social presence, is the blog.
+That’s not to say that social media is bad, or ineffective at reaching an audience. Obviously, it’s quite the opposite. But that bridge, which can serve as the foundational layer to an effective online social presence, is the blog. In this way, social media is complementary to the blog.
 
 The blog is a permanent (for as long as you keep it live), fully-autonomous (it’s your code on your domain, and not subject to the whims of other platforms) public journal of your online personal brand.
 
