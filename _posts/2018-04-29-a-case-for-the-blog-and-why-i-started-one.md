@@ -6,6 +6,8 @@ date: 2018-04-29
 image: /assets/img/posts/whyblog2.jpg
 ---
 
+![Matt Gagliano on why blogging is useful for on online presence and personal brand]({{ site.baseurl }}/assets/img/posts/whyblog2.jpg "Matt Gagliano on the Case for Blogging")
+
 I’ve never really enjoyed writing. It has always felt more like a chore than a hobby. For this reason, the thought of blogging never really caught my interest. I’ve been designing and building websites for as long as I can remember, but in that time I had never found the motivation (or reason to motivate myself) to start a blog.
 
 But over the past couple years, as my personal portfolio website fell out of date and irrelevant to the multitude of projects I was working on, I realized I needed a better way to document and share my journey and experiences in design, tech, and life in general.
