@@ -134,10 +134,14 @@ footer {
   list-style-type: none;
   padding: 0;
   margin-bottom: 0;
+  margin-left: -5px;
 }
 .post-meta ul li {
   display: inline-block;
   margin: 5px;
+}
+.post-meta ul li:first-child {
+  margin-top: 5px;
 }
 .post-meta ul li a {
   display: block;
