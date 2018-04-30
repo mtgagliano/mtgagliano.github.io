@@ -124,9 +124,31 @@ footer {
   color: #f9f9f9;
 }
 
+.post-meta {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.post-meta ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+.post-meta ul li {
+  display: inline-block;
+  margin: 5px;
+}
+.post-meta ul li a {
+  display: block;
+}
 .tags {
   border: solid 1px #d8d8da;
   border-radius: 4px;
   padding: 5px 15px;
   margin-left: 15px
+}
+
+.inline-block {
+  display: inline-block;
 }

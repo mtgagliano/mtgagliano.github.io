@@ -44,12 +44,18 @@
 
     <section class="main-content">
       <h1>{{ page.title }}</h1>
-      <p>
-        {{ page.date | date_to_long_string }}&nbsp;
-        {% for tag in page.tags %}
-          <a class="button" href="/tags/{{ tag }}/">{{ tag }}</a>
-        {% endfor %}
-      </p>
+      <div class="post-meta" style="display: flex; justify-content: flex-start;">
+        <div>
+          {{ page.date | date_to_long_string }}&nbsp;
+        </div>
+        <div>
+          <ul>
+          {% for tag in page.tags %}
+            <li><a class="button" href="/tags/{{ tag }}/">{{ tag }}</a></li>
+          {% endfor %}
+          </ul>
+        </div>
+      </div>
       
       <div class="post">
         {{ content }}
