@@ -3,7 +3,7 @@ layout: post
 tags: [ meta, webdev, design ]
 title: "A Case for the Blog And Why I Started One"
 date: 2018-04-29
-image: /assets/img/posts/whyblog.jpg
+image: /assets/img/posts/whyblog2.jpg
 ---
 
 I’ve never really enjoyed writing. It has always felt more like a chore than a hobby. For this reason, the thought of blogging never really caught my interest. I’ve been designing and building websites for as long as I can remember, but in that time I had never found the motivation (or reason to motivate myself) to start a blog.
