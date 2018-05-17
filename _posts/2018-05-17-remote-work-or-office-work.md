@@ -30,4 +30,4 @@ And I believe that design is important. Just as my [last blog post]({{ site.base
 
 When it comes to experience design and productivity optimization, the same digital rules apply to physical space. In other words, the design of physical space is just as important as digital space. They go hand in hand, and are increasingly one in the same.
 
-_My musings on productivity of remote work versus office space have absolutely no data to back them, just my personal experience 🙂. I’m really curious if there have been any studies or data sets to back employee productivity or wellness metrics comparing remote work to office work. If you know of any good ones, or have thoughts on this topic, please reach out on social!_
+_My musings on productivity of remote work versus office space have absolutely no data to back them, just my personal experience_ 🙂_. I’m really curious if there have been any studies or data sets to back employee productivity or wellness metrics comparing remote work to office work. If you know of any good ones, or have thoughts on this topic, please reach out on social!_
