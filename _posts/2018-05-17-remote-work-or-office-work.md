@@ -12,7 +12,7 @@ While this may be an old and belabored topic, I still think it warrants a conver
 
 In the early stages of a startup, opting exclusively for remote work is a huge advantage when it comes to cost savings. And at a time when every dollar counts to keep the business forging ahead, expenses that would otherwise be used for office space can be better utilized with marketing or hiring great talent.
 
-Remote work as a cost savings measure is also incredibly appealing for startups in major metro areas like New York City or San Fransisco, where real estate prices are among the highest in the world.
+Remote work as a cost savings measure is also incredibly appealing for startups in major metro areas like New York City or San Francisco, where real estate prices are among the highest in the world.
 
 And for small, close-knit teams, remote work may be highly productive (reduced commute times, flexible schedules, etc.).
 
