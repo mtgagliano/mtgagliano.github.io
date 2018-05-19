@@ -18,7 +18,7 @@ And for small, close-knit teams, remote work may be highly productive (reduced c
 
 At the same time, I still believe there is a tremendous value in personal interaction and collaboration in the physical space.
 
-I believe there is a threshold (Jeff Bezos’s 2-pizza rule for meeting productivity comes to mind here) where a team needs a physical space, a home base.
+I believe there is a threshold (Jeff Bezos’s [two pizza rule](https://www.cnbc.com/2018/04/30/jeff-bezos-2-pizza-rule-can-help-you-hold-more-productive-meetings.html) for meeting productivity comes to mind here) where a team needs a physical space, a home base.
 
 So what’s the solution? I think it’s a healthy balance of both.
 
