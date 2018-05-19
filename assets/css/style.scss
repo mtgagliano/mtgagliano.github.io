@@ -56,7 +56,7 @@ a {
   text-decoration: none;
   width: 100%;
   background: #f4f5f6;
-  padding: 20px;
+  padding: 0;
   border: 1px solid #d8d8da;
   border-radius: 4px;
   margin: 20px 0;
@@ -69,9 +69,23 @@ a {
 .posts h2 {
   margin-bottom: 0;
 }
-.posts > p {
+.posts p {
   color: grey;
   margin-top: 0;
+}
+.posts p:last-child {
+  margin-bottom: 0;
+}
+.posts-image {
+  display: block;
+  height: 200px;
+  width: 100%;
+  border-radius: 3px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.posts-preview {
+  padding: 20px;
 }
 .button {
   background: #f4f5f6;
