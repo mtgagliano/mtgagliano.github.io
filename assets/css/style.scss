@@ -137,6 +137,12 @@ footer {
 .site-footer-credits {
   color: #f9f9f9;
 }
+.site-footer-credits a {
+  color: #f9f9f9;
+}
+.site-footer-credits a:hover {
+  color: #606c71;
+}
 
 .post-meta {
   display: flex;
