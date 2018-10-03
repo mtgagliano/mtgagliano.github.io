@@ -1,0 +1,19 @@
+---
+layout: default
+title: 'Tag: crypto'
+image: /assets/img/nyc.jpg
+---
+
+<h1>{{ page.title }}</h1>
+{% for post in site.tags.crypto %}
+  <a href="{{ post.url }}" title="{{ post.title }}">
+    <div class="posts" style="padding: 0;">
+      <div class="posts-image" style="background: url('{{ post.image }}') no-repeat center center; background-size: cover;"></div>
+      <div class="posts-preview">
+        <h2>{{ post.title }}</h2>
+        <p class="date">{{ post.date | date_to_long_string }}</p>
+        <p>{{ post.content | strip_html | truncatehtml | truncatewords: 60 }}</p>
+      </div>
+    </div>
+  </a>
+{% endfor %}

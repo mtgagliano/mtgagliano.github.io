@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: meta
+tags: bigpicture
 title: "Looking Back: Months IRL are like Years in Tech"
 date: 2018-02-14
 image: /assets/img/nyc.jpg

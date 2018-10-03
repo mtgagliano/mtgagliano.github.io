@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: blockchain
+tags: crypto
 title: "Investing in Bitcoin and Altcoins: Better Late Than Never?"
 date: 2017-09-27
 image: /assets/img/posts/bitcoin.jpg

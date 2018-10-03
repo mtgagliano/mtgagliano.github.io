@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: [ design, webdev ]
+tags: [ design, webdev, veritonic ]
 title: "Redesigning the Veritonic Website and Visualizing Sound"
 date: 2018-04-12
 image: /assets/img/posts/veritonic/veritonic-com.png
