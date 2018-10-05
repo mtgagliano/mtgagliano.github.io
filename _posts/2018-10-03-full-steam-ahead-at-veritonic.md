@@ -6,7 +6,7 @@ date: 2018-10-03
 image: /assets/img/posts/full-steam-ahead/preview.png
 ---
 
-![Veritonic home page designed by Matt Gagliano]({{ site.baseurl }}/assets/img/posts/full-steam-ahead/home-page.png "Veritonic home page designed by Matt Gagliano")
+![Veritonic product components designed by Matt Gagliano]({{ site.baseurl }}/assets/img/posts/full-steam-ahead/preview.png "Veritonic product components designed by Matt Gagliano")
 
 This past summer was certainly a busy one. In late spring, we concluded our [$3.5 million seed round](https://www.veritonic.com/featured/audio-measurement-platform-veritonic-raises-seed-to-scale-data-driven-approach-to-audio-marketing) here at Veritonic. Since then, we’ve added some amazing new people to the team, had the privilege of working with many [exceptional clients](https://blog.veritonic.com/new-data-proving-the-power-of-personalization-with-pandora/), and moved into a shiny new office in Midtown.
 
