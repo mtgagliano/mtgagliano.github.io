@@ -3,6 +3,10 @@
 
 @import "{{ site.theme }}";
 
+body {
+  background: #f3f7f9;
+}
+
 .page-header {
   background-color: #2980b9;
   background: linear-gradient(-20deg, #155799, #0785E5);
@@ -23,15 +27,15 @@ a {
 }
 .main-content p {
   font-size: 1.2rem !important;
+  margin-bottom: 1.2em;
 }
 
 .sub-header {
-  background: #f4f5f6;
+  background: white;
   padding: 15px;
   color: #313438;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);
   text-align: center;
-  border-bottom: 1px solid #d8d8da;
 }
 .sub-header ul {
   list-style-type: none;
@@ -53,22 +57,23 @@ a {
 
 .post img {
   border-radius: 4px;
-  border: 1px solid #d8d8da;
+  border: 1px solid #dfe4e7;
 }
 
 .posts {
   text-decoration: none;
   width: 100%;
-  background: #f4f5f6;
+  background: white;
   padding: 0;
-  border: 1px solid #d8d8da;
   border-radius: 4px;
-  margin: 20px 0;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);
+  margin: 30px 0;
   transition: all 0.2s ease-in-out;
 }
 .posts:hover {
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12), 0 2px 4px 0 rgba(0,0,0,0.08);
   transition: all 0.2s ease-in-out;
+  transform: translateY(-1px);
 }
 .posts h2 {
   margin-bottom: 0;
@@ -92,12 +97,12 @@ a {
   padding: 20px;
 }
 .button {
-  background: #f4f5f6;
+  background: white;
   padding: 10px 15px;
   border-radius: 4px;
 }
 .button:hover {
-  background: #d8d8da;;
+  background: #dfe4e7;;
 }
 .btn-latest {
   background: #155799 !important;
@@ -153,6 +158,7 @@ footer {
   justify-content: flex-start;
   align-items: center;
   margin-bottom: 1rem;
+  font-size: 16px;
 }
 .post-meta ul {
   list-style-type: none;
