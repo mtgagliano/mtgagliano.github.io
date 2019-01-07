@@ -3,6 +3,8 @@
 
 html {
   min-height: 100%;
+  padding: 0;
+  margin: 0;
 }
 body {
   min-height: 100%;
@@ -21,6 +23,21 @@ a:hover, .card:hover {
 .card.margin:hover {
   margin-top: -0.25rem;
   margin-bottom: 0.25rem;
+}
+.post-content p {
+  margin: 1.5rem 0;
+}
+.post-content p img {
+  width: 100%;
+  border-radius: .25rem;
+  border: 1px solid #F1F5F8;
+}
+.post-content p a {
+  color: #3490DC;
+  text-decoration: none;
+}
+.post-content p a:hover {
+  color: #2779BD;
 }
 .about-background {
   background: linear-gradient(to right, rgba(28, 61, 90, 1), rgba(28, 61, 90, 0.5)), url('https://www.mattgagliano.com/assets/img/backgrounds/presentation.jpg') center 20%;

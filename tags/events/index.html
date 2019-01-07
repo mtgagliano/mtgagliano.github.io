@@ -1,19 +1,35 @@
 ---
 layout: default
-title: 'Tag: events'
+title: 'events'
 image: /assets/img/posts/learning-by-building/day-1.jpg
 ---
 
-<h1>{{ page.title }}</h1>
-{% for post in site.tags.events %}
-  <a href="{{ post.url }}" title="{{ post.title }}">
-    <div class="posts" style="padding: 0;">
-      <div class="posts-image" style="background: url('{{ post.image }}') no-repeat center center; background-size: cover;"></div>
-      <div class="posts-preview">
-        <h2>{{ post.title }}</h2>
-        <p class="date">{{ post.date | date_to_long_string }}</p>
-        <p>{{ post.content | strip_html | truncatehtml | truncatewords: 60 }}</p>
+<div class="px-6 pb-10">
+  <a href="/" class="font-serif font-black text-5xl inline text-grey-dark hover:text-grey-darker no-underline">Latest Posts</a>
+  <span class="font-serif font-black text-5xl inline text-grey-dark">/</span>
+  <h1 class="font-serif font-black text-5xl text-black inline">{{ page.title }}</h1>
+</div>
+
+<div class="px-6 pb-10">
+  <div class="flex flex-wrap -mb-4 -mx-4">
+
+    {% for post in site.tags.events %}
+      <div class="w-full md:w-1/2 lg:w-1/3 mb-8 px-4">
+        <a href="{{ post.url }}" class="no-underline" title="{{ post.title }}">
+          <div class="rounded overflow-hidden shadow-md hover:shadow-lg bg-white card margin">
+            <div class="h-48 w-auto bg-cover bg-no-repeat rounded-t bg-center" style="background-image: url('{{ post.image }}');"></div>
+            <div class="p-6">
+              <p class="text-grey-dark uppercase font-bold text-xs mb-2">{{ post.date | date_to_long_string }}</p>
+              <h2 class="font-bold text-xl mb-2 text-black">{{ post.title }}</h2>
+              <p class="text-grey-darker text-base leading-normal">
+                {{ post.content | strip_html | truncatehtml | truncatewords: 40 }}
+              </p>
+            </div>
+          </div>
+        </a>
       </div>
-    </div>
-  </a>
-{% endfor %}
+    {% endfor %}
+
+  </div>
+</div>
+  
