@@ -36,7 +36,7 @@
       <ul>
         <li><a href="/blog">all</a></li>
         {% for tag in site.tags %}
-          <li><a href="/tags/{{ tag[0] }}">{{ tag[0] }}</a></li>
+          <li><a href="/tags/{{ tag[0] }}">{{ tag[0] }}{% if forloop.last == false %},{% endif %}</a></li>
         {% endfor %}
       </ul>
     </section>
