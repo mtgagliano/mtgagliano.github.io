@@ -1,192 +1,28 @@
----
----
-
-@import "{{ site.theme }}";
-
+html {
+  min-height: 100%;
+}
 body {
-  background: #f3f7f9;
+  min-height: 100%;
+  background-image: linear-gradient(white, #F8FAFC);
+  background-size: cover;
 }
-
-.page-header {
-  background-color: #2980b9;
-  background: linear-gradient(-20deg, #155799, #0785E5);
-  padding: 2rem 0;
+.bg-topbar-gradient {
+  background-image: linear-gradient(to left, #2779BD, #3490DC);
 }
-.propic {
-  border-radius: 500px;
-  border: solid 10px white;
-  background: white;
+a, .card {
+  transition: all 0.15s ease-in-out;
 }
-a {
-  text-decoration: none !important;
-  transition: all 0.2s ease-in-out !important;
+a:hover, .card:hover {
+  transition: all 0.15s ease-in-out;
 }
-.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
-  font-weight: bold;
-  color: #155799;
+.card.margin:hover {
+  margin-top: -0.25rem;
+  margin-bottom: 0.25rem;
 }
-.main-content p {
-  font-size: 1.2rem !important;
-  margin-bottom: 1.2em;
+.about-background {
+  background: linear-gradient(to right, rgba(28, 61, 90, 1), rgba(28, 61, 90, 0.5)), url('https://www.mattgagliano.com/assets/img/backgrounds/presentation.jpg') center 20%;
+  background-size: cover;
 }
-
-.sub-header {
-  background: white;
-  padding: 15px;
-  color: #313438;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);
-  text-align: center;
-}
-.sub-header ul {
-  list-style-type: none;
-  padding: 0;
-}
-.sub-header ul li {
-  display: inline-block;
-  margin: 15px 5px;
-}
-.sub-header ul li a {
-  background: #313438;
-  color: white;
-  padding: 10px 15px;
-  border-radius: 4px;
-}
-.sub-header ul li a:hover {
-  background: black;
-}
-
-.post img {
-  border-radius: 4px;
-  border: 1px solid #dfe4e7;
-}
-
-.posts {
-  text-decoration: none;
-  width: 100%;
-  background: white;
-  padding: 0;
-  border-radius: 4px;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);
-  margin: 30px 0;
-  transition: all 0.2s ease-in-out;
-}
-.posts:hover {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12), 0 2px 4px 0 rgba(0,0,0,0.08);
-  transition: all 0.2s ease-in-out;
-  transform: translateY(-1px);
-}
-.posts h2 {
-  margin-bottom: 0;
-}
-.posts p {
-  color: grey;
-  margin-top: 0;
-}
-.posts p:last-child {
-  margin-bottom: 0;
-}
-.posts-image {
-  display: block;
-  height: 200px;
-  width: 100%;
-  border-radius: 3px;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
-}
-.posts-preview {
-  padding: 20px;
-}
-.button {
-  background: white;
-  padding: 10px 15px;
-  border-radius: 4px;
-}
-.button:hover {
-  background: #dfe4e7;;
-}
-.btn-latest {
-  background: #155799 !important;
-  color: white !important;
-}
-.btn-latest:hover {
-  background: #0C4378 !important;
-  color: white !important;
-}
-.disabled {
-  cursor: not-allowed;
-}
-
-footer {
-  text-align: center;
-}
-
-.bio p {
-  font-size: 1.2rem;
-}
-
-@media screen and (max-width: 42em) {
-  .bio {
-    padding: 0 1rem;
-  }
-}
-@media screen and (max-width: 64em) and (min-width: 42em) {
-  .bio {
-    padding: 0 4rem;
-  }
-}
-@media screen and (min-width: 64em) {
-  .bio {
-    max-width: 64rem;
-    padding: 0 6rem;
-    margin: 0 auto;
-  }
-}
-
-.site-footer {
-  padding: 2rem 1rem;
-  margin-top: 0;
-  background: #313438;
-}
-.site-footer-credits {
-  color: #f9f9f9;
-}
-.site-footer-credits a {
-  color: #f9f9f9;
-}
-.site-footer-credits a:hover {
-  color: #606c71;
-}
-
-.post-meta {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  margin-bottom: 1rem;
-  font-size: 16px;
-}
-.post-meta ul {
-  list-style-type: none;
-  padding: 0;
-  margin-bottom: 0;
-  margin-left: -5px;
-}
-.post-meta ul li {
-  display: inline-block;
-  margin: 5px;
-}
-.post-meta ul li:first-child {
-  margin-top: 5px;
-}
-.post-meta ul li a {
-  display: block;
-}
-.tags {
-  border: solid 1px #d8d8da;
-  border-radius: 4px;
-  padding: 5px 15px;
-  margin-left: 15px
-}
-
-.inline-block {
-  display: inline-block;
+.footer-background {
+  background-image: linear-gradient(to left, #12283A, #1C3D5A);
 }
