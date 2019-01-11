@@ -3,7 +3,7 @@ layout: post
 tags: [ webdev, events ]
 title: "Learning by Building, Version by Version"
 date: 2018-03-25
-image: /assets/img/posts/learning-by-building/day-2.jpg
+image: /assets/img/posts/learning-by-building/day-1.jpg
 ---
 
 Back in November and December of last year, I had an awesome opportunity to host a two-part Web Development workshop with [Emily Serven](http://emilyserven.net), sponsored by the UConn Stamford Digital Media & Design Club.
