@@ -32,7 +32,9 @@ On post level pages, the post title is displayed after the slash, and the Latest
 
 Using TailwindCSS, a new utility-based CSS framework, I was able to build the entire new site with less than 50 lines of custom CSS in total.
 
-TailwindCSS is primarily built around utility classes, which allow for easy rapid prototyping and nearly infinite customization. Because of this, there's no need to have to constantly override classes like you would in Bootstrap. I stumbled upon it on Twitter through @adamwatham and @stevescheoger, the creators of the framework. I had been following the project for about a year prior but had not really tried it until now.
+With utility classes, TailwindCSS allow for easy rapid prototyping and nearly infinite customization. Because of this, there's no need to have to constantly override classes like you would in Bootstrap.
+
+I stumbled upon it on Twitter through @adamwatham and @stevescheoger, who are among the creators of the framework. I had been following the project for about a year prior but had not really tried it until now.
 
 It's available via CDN, but installing and configuring Tailwind with npm opens up even more possibilities for customization and tailoring for your specific project. It's a framework that I will most definitely use again, and I'm exploring ways to bring it into our design system at Veritonic.
 
