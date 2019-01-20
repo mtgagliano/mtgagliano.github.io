@@ -6,6 +6,14 @@ date: 2019-01-19
 image: /assets/img/posts/website-comparison.png
 ---
 
+Web technologies are constantly evolving, day in and day out. Much of our responsibility as web and product designers is to continue learning and keep up with the pace of innovation so we can deliver the best experiences for our users. The learning never stops, and that’s what makes our work so awesome and exciting.
+
+With this in mind, I try to use my side projects like this website as continual experiments and testing grounds for experiential learning and ideating on new designs, frameworks, and methodologies.
+
+This year, I not-so-reluctantly jumped on the _new year, new website_ bandwagon to redesign my personal blog from the ground up. It was about time, and I’m happy I took the leap.
+
+Not only did this exercise offer me the opportunity to improve the look and feel with a fresh new interface, but it gave me an excuse to explore new CSS and Javascript frameworks, the knowledge from which I can apply to other areas of my work (like our awesome new product updates to Veritonic).
+
 ![Matt Gagliano's New Website Design]({{ site.baseurl }}/assets/img/posts/website-comparison.png "Matt Gagliano's new design for mattgagliano.com")
 
 One of my main goals for this redesign was to bring more content above the fold. On most screens, the main header of the old website would take up about 80% of the view height. Since posts were stacked vertically, the remaining 20% would be occupied by only the top half of the first post's feature image.
@@ -22,7 +30,7 @@ On the home page (or Latest Posts page), the links after the slash mark are dyna
 
 On post level pages, the post title is displayed after the slash, and the Latest Posts link stays persistent for easy access back to the home page.
 
-Using TailwindCSS, a new utility-based CSS framework, I was able to build the entire new site using less than 50 lines of custom CSS in total.
+Using TailwindCSS, a new utility-based CSS framework, I was able to build the entire new site with less than 50 lines of custom CSS in total.
 
 TailwindCSS is primarily built around utility classes, which allow for easy rapid prototyping and nearly infinite customization. Because of this, there's no need to have to constantly override classes like you would in Bootstrap. I stumbled upon it on Twitter through @adamwatham and @stevescheoger, the creators of the framework. I had been following the project for about a year prior but had not really tried it until now.
 
