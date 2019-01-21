@@ -41,15 +41,15 @@ image: /assets/img/nyc.jpg
   <div class="flex flex-col md:flex-row justify-center">
     <div class="flex md:inline-flex md:mr-4">
       {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path }}" class="flex-1 bg-grey-light hover:bg-grey text-grey-darkest font-bold py-4 px-0 md:px-8 rounded-l no-underline text-center">Previous</a>
+        <a href="{{ paginator.previous_page_path }}" class="flex-auto bg-grey-light hover:bg-grey text-grey-darkest font-bold py-4 px-0 md:px-8 rounded-l no-underline text-center">Previous</a>
       {% else %}
-        <span class="flex-1 bg-grey-light text-grey-darkest font-bold py-4 px-0 md:px-8 rounded-l opacity-50 cursor-not-allowed text-center">Previous</span>
+        <span class="flex-auto bg-grey-light text-grey-darkest font-bold py-4 px-0 md:px-8 rounded-l opacity-50 cursor-not-allowed text-center">Previous</span>
       {% endif %}
-        <span class="flex-1 bg-grey-light text-grey-darkest font-bold py-4 px-0 md:px-8 text-center">Page&nbsp;{{ paginator.page }}&nbsp;of&nbsp;{{ paginator.total_pages }}</span>
+        <span class="flex-auto bg-grey-light text-grey-darkest font-bold py-4 px-0 md:px-8 text-center">Page&nbsp;{{ paginator.page }}&nbsp;of&nbsp;{{ paginator.total_pages }}</span>
       {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path }}" class="flex-1 bg-grey-light hover:bg-grey text-grey-darkest font-bold py-4 px-0 md:px-8 rounded-r no-underline text-center">Next</a>
+        <a href="{{ paginator.next_page_path }}" class="flex-auto bg-grey-light hover:bg-grey text-grey-darkest font-bold py-4 px-0 md:px-8 rounded-r no-underline text-center">Next</a>
       {% else %}
-        <span class="flex-1 bg-grey-light text-grey-darkest font-bold py-4 px-0 md:px-8 rounded-r opacity-50 cursor-not-allowed text-center">Next</span>
+        <span class="flex-auto bg-grey-light text-grey-darkest font-bold py-4 px-0 md:px-8 rounded-r opacity-50 cursor-not-allowed text-center">Next</span>
       {% endif %}
     </div>
     <a href="/blog" class="bg-grey-light hover:bg-grey text-grey-darkest font-bold py-4 px-8 rounded no-underline mt-4 md:mt-0 text-center">Show All</a>
