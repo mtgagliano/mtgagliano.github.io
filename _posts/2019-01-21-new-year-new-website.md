@@ -32,7 +32,7 @@ On post level pages, the post title is displayed after the slash, and the Latest
 
 Using [TailwindCSS](https://tailwindcss.com), a new utility-based CSS framework, I was able to build the entire site with less than 50 lines of custom CSS.
 
-With utility classes, TailwindCSS allows for easy rapid prototyping and nearly infinite customization, meaning there's no need to have to constantly override classes like you would in Bootstrap.
+With utility classes, TailwindCSS allows for easy rapid prototyping and nearly infinite customization, meaning there's no need to have to constantly override classes like you would when using Bootstrap.
 
 For example, the pill-style tag buttons at the top of this page would be styled like this with vanilla HTML and CSS:
 
