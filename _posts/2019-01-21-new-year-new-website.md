@@ -8,7 +8,7 @@ image: /assets/img/posts/website-comparison.png
 
 Web technologies are constantly evolving, day in and day out. Much of our responsibility as web and product designers is to continue learning and keep up with the pace of innovation so we can deliver the best experiences for our users. The learning never stops, and that’s what makes our work so awesome and exciting.
 
-With this in mind, I try to use my side projects like this website as continual experiments and testing grounds for experiential learning and ideating on new designs, frameworks, and methodologies.
+With this in mind, I try to use my side projects like this website as a continual experiment and testing ground for experiential learning and ideating on new designs, frameworks, and methodologies.
 
 This year, I willingly jumped on the _new year, new website_ bandwagon to redesign my personal blog from the ground up. It was about time, and I’m happy I took the leap.
 
