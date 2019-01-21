@@ -30,13 +30,54 @@ On the home page (or Latest Posts page), the links after the slash mark are dyna
 
 On post level pages, the post title is displayed after the slash, and the Latest Posts link stays persistent for easy access back to the home page.
 
-Using [TailwindCSS](https://tailwindcss.com), a new utility-based CSS framework, I was able to build the entire new site with less than 50 lines of custom CSS in total.
+Using [TailwindCSS](https://tailwindcss.com), a new utility-based CSS framework, I was able to build the entire site with less than 50 lines of custom CSS.
 
-With utility classes, TailwindCSS allow for easy rapid prototyping and nearly infinite customization, meaning there's no need to have to constantly override classes like you would in Bootstrap.
+With utility classes, TailwindCSS allows for easy rapid prototyping and nearly infinite customization, meaning there's no need to have to constantly override classes like you would in Bootstrap.
 
-I stumbled upon it on Twitter through [@adamwathan](https://twitter.com/adamwathan) and [@steveschoger](https://twitter.com/steveschoger), who are among the creators of the framework. I had been following the project for about a year prior but had not really explored it until now.
+For example, the pill-style tag buttons at the top of this page would be styled like this with vanilla HTML and CSS:
 
-It's available via CDN, but installing and configuring Tailwind with npm opens up even more possibilities for customization and tailoring for your specific project. It's a framework that I will most definitely use again, and I'm exploring ways to bring it into our design system at Veritonic.
+```html
+<style>
+  .tag {
+    display: inline-block;
+    background-color: #dae1e7;
+    border-radius: 9999px;
+    font-weight: 600;
+    margin-right: .5rem;
+    padding: .25rem .75rem;
+    color: #3d4852;
+    font-size: .875rem;
+    text-decoration: none;
+  }
+  .tag:hover {
+    background-color: #b8c2cc;
+  }
+</style>
+
+<a href="/tags/design/" class="tag">design</a>
+```
+
+With Tailwind, those styles can be easily condensed into a set of utility classes, producing the same result as the code above:
+
+```html
+<a href="/tags/design/" class="inline-block bg-grey-light hover:bg-grey rounded-full px-3 py-1 text-sm font-semibold text-grey-darkest mr-2 no-underline">design</a>
+```
+
+This makes it easy to prototype ideas without spending time writing new CSS. And when you start to reuse similar patterns, Tailwind allows for building custom components from existing utility classes using the `@apply` directive:
+
+```html
+<style>
+.tag {
+  @apply inline-block bg-grey-light hover:bg-grey rounded-full px-3 py-1 text-sm font-semibold text-grey-darkest mr-2 no-underline;
+}
+</style>
+
+<a href="/tags/design/" class="tag">design</a>
+```
+
+I stumbled upon Tailwind on Twitter through [@adamwathan](https://twitter.com/adamwathan) and [@steveschoger](https://twitter.com/steveschoger), who are among the creators of the framework. I had been following the project for about a year prior but had not really explored it until now.
+
+It's available via CDN, but installing and configuring Tailwind with npm opens up even more possibilities for customization and tailoring for your specific project (like the `@apply` example above). It's a framework that I will most definitely use again, and I'm exploring ways to bring it into our design system at Veritonic.
 
 Under the hood, this site is still running on Jekyll. I've found that it's still the simplest and cleanest way to run a static site or blog, and it [beats Wordpress]({{ site.baseurl }}{% post_url 2017-06-01-building-a-website-or-blog-with-jekyll %}) by a long shot.
 
