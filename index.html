@@ -5,8 +5,8 @@ image: /assets/img/nyc.jpg
 ---
 
 <div class="px-6 pb-10">
-  <h1 class="font-serif font-black text-5xl inline text-black">Latest Posts</h1>
-  <span class="font-serif font-black text-5xl inline text-grey-dark">/</span>
+  <h1 class="font-serif font-black text-4xl md:text-5xl inline text-black">Latest Posts</h1>
+  <span class="font-serif font-black text-4xl md:text-5xl inline text-grey-dark">/</span>
   <div class="font-serif font-black text-xl md:text-5xl inline-block md:inline text-grey-dark">
     {% for tag in site.tags %}
       <a href="/tags/{{ tag[0] }}" class="no-underline text-grey-dark hover:text-grey-darker">{{ tag[0] }}</a>{% if forloop.last == false %},{% endif %}
