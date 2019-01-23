@@ -29,8 +29,10 @@ It’s a simple layout with the logo and intro at the top, followed by the curre
 In keeping with the purple theme, I used the following background gradient:
 
 ```css
-background: linear-gradient(to top, #000428, #563d7c) no-repeat fixed;
-background-size: cover;
+.background {
+  background: linear-gradient(to top, #000428, #563d7c) no-repeat fixed;
+  background-size: cover;
+}
 ```
 
 The first ‘New Alert’ tab (shown above), displays a simple layout with two input fields (one for price and one for alert address), separated by a toggle to choose between ‘Email’ or ‘Text’ alerts.
@@ -41,22 +43,26 @@ For the ‘Current Price’ card, I featured it prominently at the top of the pa
 
 ```css
 /* Current Price Card */
-background: transparent;
-border: 1px solid #f9f9f9;
-border-radius: 4px;
-box-shadow: 0 1px 1px rgba(0,0,0,.05);
--webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+.current-price-card {
+  background: transparent;
+  border: 1px solid #f9f9f9;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px rgba(0,0,0,.05);
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
 ```
 
 In contrast, the alerts card has a similar style, but adds a solid off-white background to draw the eye to the app’s main feature.
 
 ```css
 /* Alerts Card (common styles duplicated for emphasis) */
-background: #f9f9f9;
-border: 1px solid #f9f9f9;
-border-radius: 4px;
-box-shadow: 0 1px 1px rgba(0,0,0,.05);
--webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+.alerts-card {
+  background: #f9f9f9;
+  border: 1px solid #f9f9f9;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px rgba(0,0,0,.05);
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
 ```
 
 The second ‘Manage Alerts’ tab on the alerts card follows a similar design pattern to the ‘New Alert’ tab.
