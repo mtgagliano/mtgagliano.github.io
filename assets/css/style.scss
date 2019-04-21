@@ -17,7 +17,7 @@ body {
 a, .card {
   transition: all 0.15s ease-in-out;
 }
-a:hover, .card:hover {
+a:hover, .card:hover, .btn-transition {
   transition: all 0.15s ease-in-out;
 }
 .card.margin:hover {
