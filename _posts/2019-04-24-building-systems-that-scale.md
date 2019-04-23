@@ -41,7 +41,7 @@ We’ll kick off the month of May in this fashion with a newsletter produced on 
 
 In this system, we broke down every step leading up to the launch by task, and assigned each task an owner and completion timeframe. Sourcing the content, writing the draft, and building the template are now sequenced in lockstep to avoid unnecessary back and forth. The finished newsletter is then scheduled two days in advance to be sent automatically on launch day (which also provides breathing room for emergency edits).
 
-With this system, our team can compile the individual manual tasks into a repeatable system and build a uniquely curated resource with maximal efficiency.
+With this procedure, our team can compile the individual manual tasks into a repeatable system and build a uniquely curated resource with maximal efficiency.
 
 In a small but growing startup team like ours, building systems for and automating the consistently repetitive processes frees up human capital for more outside-the-box thinking that helps the company grow on top of a scalable foundation.
 
