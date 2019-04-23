@@ -35,7 +35,7 @@ Another such project was our [monthly email newsletter](https://veritonic.com/su
 
 And like the scope of the Audio Logo Index, the content and execution of each newsletter may span multiple disciplines (sales, marketing, and product).
 
-While the content itself is not easily automated, as the source may not be consistent (blog post one month, link to news article or product announcement the next), the process in which the content is curated among the team members involved can be systemized to ensure the letter is curated, built, and sent as efficiently as possible.
+While the content itself is not easily automated, as the source may not be consistent (blog post one month, link to news article or product announcement the next), the process in which the content is curated among the team members involved can be systemized to ensure the letter is drafted, built, and sent as efficiently as possible.
 
 We’ll kick off the month of May in this fashion with a newsletter produced on top of a scalable, repeatable system.
 
