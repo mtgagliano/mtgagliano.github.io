@@ -39,7 +39,7 @@ While the content itself is not easily automated, as the source may not be consi
 
 We’ll kick off the month of May in this fashion with a newsletter produced on top of a scalable, repeatable system.
 
-In this system, we broke down every step leading up to the launch by task, and assigned each task an owner and completion timeframe. Sourcing the content, writing the draft, and building the template are now sequenced in lock step to avoid unnecessary back and forth. The finished newsletter is then scheduled two days in advance to be sent automatically on launch day (which also provides breathing room for emergency edits).
+In this system, we broke down every step leading up to the launch by task, and assigned each task an owner and completion timeframe. Sourcing the content, writing the draft, and building the template are now sequenced in lockstep to avoid unnecessary back and forth. The finished newsletter is then scheduled two days in advance to be sent automatically on launch day (which also provides breathing room for emergency edits).
 
 With this system, our team can compile the individual manual tasks into a repeatable system and build a uniquely curated resource with maximal efficiency.
 
