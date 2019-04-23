@@ -45,4 +45,4 @@ With this procedure, our team can compile the individual manual tasks into a rep
 
 In a small but growing startup team like ours, building systems for and automating the consistently repetitive processes frees up human capital for more outside-the-box thinking that helps the company grow on top of a scalable foundation.
 
-Building systems really is the only way to scale.
+Building systems that _work for_ you really is the only way to scale.
