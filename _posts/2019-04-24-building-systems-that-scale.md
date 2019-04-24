@@ -43,6 +43,6 @@ In this system, we broke down every step leading up to the launch by task, and a
 
 With this procedure, our team can compile the individual manual tasks into a repeatable system and build a uniquely curated resource with maximal efficiency.
 
-In a small but growing startup team like ours, building systems for and automating the consistently repetitive processes frees up human capital for more outside-the-box thinking that helps the company grow on top of a scalable foundation.
+In a small but growing startup team like ours, building systems and automating the consistently repetitive processes frees up human capital for more outside-the-box thinking that helps the company grow on top of a scalable foundation.
 
 Building systems that _work for_ you really is the only way to scale.
