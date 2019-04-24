@@ -50,3 +50,8 @@ a:hover, .card:hover, .btn-transition {
 .subscribe-input {
   min-width: 200px;
 }
+@media (min-width: 768px) {
+  .subscribe-input {
+    min-width: 215px;
+  }
+}
