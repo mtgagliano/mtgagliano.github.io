@@ -6,7 +6,7 @@ date: 2019-04-24
 image: /assets/img/posts/audio-logo-index.png
 ---
 
-We recently launched the [2019 Audio Logo Index](https://veritonic.com/audio-logo-index) — an analysis of the top audio logos in the United States and United Kingdom — to help brands understand how their audio logos stack up against the broader industry, and gauge emotional resonance and memorability in a general population audience.
+We recently launched the [2019 Audio Logo Index](https://www.veritonic.com/audio-logo-index) — an analysis of the top audio logos in the United States and United Kingdom — to help brands understand how their audio logos stack up against the broader industry, and gauge emotional resonance and memorability in a general population audience.
 
 ![Veritonic 2019 Audio Logo Index]({{ site.baseurl }}/assets/img/posts/audio-logo-index.png "Veritonic 2019 Audio Logo Index")
 
@@ -31,7 +31,7 @@ This caused a bit of scope creep from the initial project spec, but the increase
 
 After the success of the Audio Logo Index project, I looked to other repetitive processes that could be systemized and automated.
 
-Another such project was our [monthly email newsletter](https://veritonic.com/subscribe). Since each newsletter has uniquely curated content for that month, they require a high degree of manual setup.
+Another such project was our [monthly email newsletter](https://www.veritonic.com/subscribe). Since each newsletter has uniquely curated content for that month, they require a high degree of manual setup.
 
 And like the scope of the Audio Logo Index, the content and execution of each newsletter may span multiple disciplines (sales, marketing, and product).
 
