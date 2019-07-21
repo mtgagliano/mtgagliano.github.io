@@ -7,7 +7,7 @@ image: /assets/img/nyc.jpg
 <div class="px-6 pb-10">
   <a href="/" class="font-serif font-black text-4xl md:text-5xl inline text-grey-dark hover:text-grey-darker no-underline">Latest Posts</a>
   <span class="font-serif font-black text-4xl md:text-5xl inline text-grey-dark">/</span>
-  <h1 class="font-serif font-black text-4xl md:text-5xl text-black inline">{{ page.title }}</h1>
+  <h1 class="font-serif font-black text-4xl md:text-5xl text-gray-900 inline">{{ page.title }}</h1>
 </div>
 
 <div class="px-6 pb-10">
@@ -20,7 +20,7 @@ image: /assets/img/nyc.jpg
             <div class="h-48 w-auto bg-cover bg-no-repeat rounded-t bg-center" style="background-image: url('{{ post.image }}');"></div>
             <div class="p-6">
               <p class="text-grey-dark uppercase font-bold text-xs mb-2">{{ post.date | date_to_long_string }}</p>
-              <h2 class="font-bold text-xl mb-2 text-black">{{ post.title }}</h2>
+              <h2 class="font-bold text-xl mb-2 text-gray-900">{{ post.title }}</h2>
               <p class="text-grey-darker text-base leading-normal">
                 {{ post.content | strip_html | truncatehtml | truncatewords: 40 }}
               </p>
