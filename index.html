@@ -9,7 +9,7 @@ image: /assets/img/nyc.jpg
   <span class="font-serif font-black text-4xl md:text-5xl inline text-grey-dark">/</span>
   <div class="font-serif font-black text-xl md:text-5xl inline-block md:inline text-grey-dark">
     {% for tag in site.tags %}
-      <a href="/tags/{{ tag[0] }}" class="no-underline text-grey-dark hover:text-grey-darker">{{ tag[0] }}</a>{% if forloop.last == false %},{% endif %}
+      <a href="/tags/{{ tag[0] }}" class="no-underline text-grey-dark hover:text-gray-700">{{ tag[0] }}</a>{% if forloop.last == false %},{% endif %}
     {% endfor %}
   </div>
 </div>
@@ -25,7 +25,7 @@ image: /assets/img/nyc.jpg
             <div class="p-6">
               <p class="text-grey-dark uppercase font-bold text-xs mb-2">{{ post.date | date_to_long_string }}</p>
               <h2 class="font-bold text-xl mb-2 text-gray-900">{{ post.title }}</h2>
-              <p class="text-grey-darker text-base leading-normal">
+              <p class="text-gray-700 text-base leading-normal">
                 {{ post.content | strip_html | truncatehtml | truncatewords: 40 }}
               </p>
             </div>
