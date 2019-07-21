@@ -60,7 +60,7 @@ For example, the pill-style tag buttons at the top of this page would be styled 
 With Tailwind, those styles can be easily condensed into a set of utility classes, producing the same result as the code above:
 
 ```html
-<a href="/tags/design/" class="inline-block bg-gray-400 hover:bg-grey rounded-full px-3 py-1 text-sm font-semibold text-gray-800 mr-2 no-underline">design</a>
+<a href="/tags/design/" class="inline-block bg-gray-400 hover:bg-gray-500 rounded-full px-3 py-1 text-sm font-semibold text-gray-800 mr-2 no-underline">design</a>
 ```
 
 This makes it easy to prototype ideas without spending time writing new CSS. And when you start to reuse similar patterns, Tailwind allows for building custom components from existing utility classes using the `@apply` directive:
@@ -68,7 +68,7 @@ This makes it easy to prototype ideas without spending time writing new CSS. And
 ```html
 <style>
 .tag {
-  @apply inline-block bg-gray-400 hover:bg-grey rounded-full px-3 py-1 text-sm font-semibold text-gray-800 mr-2 no-underline;
+  @apply inline-block bg-gray-400 hover:bg-gray-500 rounded-full px-3 py-1 text-sm font-semibold text-gray-800 mr-2 no-underline;
 }
 </style>
 
