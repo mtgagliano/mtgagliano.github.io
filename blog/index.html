@@ -5,8 +5,8 @@ image: /assets/img/nyc.jpg
 ---
 
 <div class="px-6 pb-10">
-  <a href="/" class="font-serif font-black text-4xl md:text-5xl inline text-grey-dark hover:text-gray-700 no-underline">Latest Posts</a>
-  <span class="font-serif font-black text-4xl md:text-5xl inline text-grey-dark">/</span>
+  <a href="/" class="font-serif font-black text-4xl md:text-5xl inline text-gray-600 hover:text-gray-700 no-underline">Latest Posts</a>
+  <span class="font-serif font-black text-4xl md:text-5xl inline text-gray-600">/</span>
   <h1 class="font-serif font-black text-4xl md:text-5xl text-gray-900 inline">All Posts</h1>
 </div>
 
@@ -19,7 +19,7 @@ image: /assets/img/nyc.jpg
           <div class="rounded overflow-hidden shadow-md hover:shadow-lg bg-white card margin">
             <div class="h-48 w-auto bg-cover bg-no-repeat rounded-t bg-center" style="background-image: url('{{ post.image }}');"></div>
             <div class="p-6">
-              <p class="text-grey-dark uppercase font-bold text-xs mb-2">{{ post.date | date_to_long_string }}</p>
+              <p class="text-gray-600 uppercase font-bold text-xs mb-2">{{ post.date | date_to_long_string }}</p>
               <h2 class="font-bold text-xl mb-2 text-gray-900">{{ post.title }}</h2>
               <p class="text-gray-700 text-base leading-normal">
                 {{ post.content | strip_html | truncatehtml | truncatewords: 40 }}

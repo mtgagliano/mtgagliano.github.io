@@ -31,13 +31,13 @@
           <img src="/assets/img/newpropic2019.jpg" alt="Matt Gagliano" title="Matt Gagliano" class="w-16 h-16 rounded-full mr-4 shadow-inner">
           <div class="text-lg">
             <a href="/" class="text-xl	text-gray-900 leading-normal font-black no-underline">{{ site.title | default: site.github.repository_name }}</a>
-            <p class="text-grey-dark">Designer and builder of digital things.</p>
+            <p class="text-gray-600">Designer and builder of digital things.</p>
           </div>
         </div>
         <div class="flex items-center justify-between text-xl md:ml-auto md:mr-5">
-          <a href="https://twitter.com/matttgagliano" class="p-5 text-grey-dark hover:text-gray-700" target="_blank" title="Follow Matt on Twitter."><i class="fab fa-twitter"></i></a>
-          <a href="https://www.linkedin.com/in/matttgagliano/" class="p-5 text-grey-dark hover:text-gray-700" target="_blank" title="Connect with Matt on LinkedIn."><i class="fab fa-linkedin-in"></i></a>
-          <a href="https://github.com/matttgagliano" class="p-5 text-grey-dark hover:text-gray-700" target="_blank" title="Code with Matt on Github."><i class="fab fa-github"></i></a>
+          <a href="https://twitter.com/matttgagliano" class="p-5 text-gray-600 hover:text-gray-700" target="_blank" title="Follow Matt on Twitter."><i class="fab fa-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/matttgagliano/" class="p-5 text-gray-600 hover:text-gray-700" target="_blank" title="Connect with Matt on LinkedIn."><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/matttgagliano" class="p-5 text-gray-600 hover:text-gray-700" target="_blank" title="Code with Matt on Github."><i class="fab fa-github"></i></a>
         </div>
         <div class="flex items-center">
           <!-- Begin Mailchimp Signup Form -->
@@ -68,8 +68,8 @@
     <div class="max-w-lg mx-auto">
 
       <div class="px-6 pb-4">
-        <a href="/" class="font-serif font-black text-4xl md:text-5xl inline text-grey-dark hover:text-gray-700 no-underline">Latest Posts</a>
-        <span class="font-serif font-black text-4xl md:text-5xl inline text-grey-dark">/</span>
+        <a href="/" class="font-serif font-black text-4xl md:text-5xl inline text-gray-600 hover:text-gray-700 no-underline">Latest Posts</a>
+        <span class="font-serif font-black text-4xl md:text-5xl inline text-gray-600">/</span>
         <h1 class="font-serif font-black text-4xl md:text-5xl text-gray-900 inline">{{ page.title }}</h1>
       </div>
 
@@ -77,7 +77,7 @@
         {% for tag in page.tags %}
           <a href="/tags/{{ tag }}/" class="inline-block bg-grey-light hover:bg-grey rounded-full px-3 py-1 text-sm font-semibold text-gray-800 mr-2 no-underline">{{ tag }}</a>
         {% endfor %}
-        <span class="inline-block pt-4 md:px-3 md:py-1 text-sm font-semibold text-grey-dark uppercase">{{ page.date | date_to_long_string }}</span>
+        <span class="inline-block pt-4 md:px-3 md:py-1 text-sm font-semibold text-gray-600 uppercase">{{ page.date | date_to_long_string }}</span>
       </div>
 
       <div class="px-6 pb-10 post-content font-sans text-xl text-gray-700 leading-normal">{{ content }}</div>

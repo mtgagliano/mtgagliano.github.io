@@ -5,13 +5,13 @@ image: /assets/img/nyc.jpg
 ---
 
 <div class="px-6 pb-10">
-  <a href="/" class="no-underline text-grey-dark hover:text-gray-700">
+  <a href="/" class="no-underline text-gray-600 hover:text-gray-700">
     <h1 class="font-serif font-black text-4xl md:text-5xl inline">Latest Posts</h1>
   </a>
-  <span class="font-serif font-black text-4xl md:text-5xl inline text-grey-dark">/</span>
-  <div class="font-serif font-black text-xl md:text-5xl inline-block md:inline text-grey-dark">
+  <span class="font-serif font-black text-4xl md:text-5xl inline text-gray-600">/</span>
+  <div class="font-serif font-black text-xl md:text-5xl inline-block md:inline text-gray-600">
     {% for tag in site.tags %}
-      <a href="/tags/{{ tag[0] }}" class="no-underline text-grey-dark hover:text-gray-700">{{ tag[0] }}</a>{% if forloop.last == false %},{% endif %}
+      <a href="/tags/{{ tag[0] }}" class="no-underline text-gray-600 hover:text-gray-700">{{ tag[0] }}</a>{% if forloop.last == false %},{% endif %}
     {% endfor %}
   </div>
 </div>
@@ -20,6 +20,6 @@ image: /assets/img/nyc.jpg
 
   <div class="p-6"><img src="/assets/img/icon-check.svg" class="w-48" alt="Success!"></div>
   <h2 class="font-sans font-bold text-xl mb-4 text-gray-900">Thanks for subscribing!</h2>
-  <p class="font-sans text-grey-dark mb-10">Please check your email and follow the confirmation link if you have not already done so.</p>
+  <p class="font-sans text-gray-600 mb-10">Please check your email and follow the confirmation link if you have not already done so.</p>
 
 </div>
