@@ -47,8 +47,15 @@ a:hover, .card:hover, .btn-transition {
   background-image: linear-gradient(to left, #12283A, #1C3D5A);
 }
 
-.subscribe-input::placeholder {
-  opacity: 1;
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #718096;
+  opacity: 1; /* Firefox */
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #718096;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #718096;
 }
 
 @media (min-width: 768px) {
