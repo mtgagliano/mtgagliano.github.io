@@ -12,7 +12,7 @@ I recently had the pleasure of reading Brad Frost’s [post on the role of the e
 
 It’s a role that encompasses what Brad coins as the “front of the frontend.” And it’s perfect for the way today’s web development works.
 
-Long before I heard this term, this concept described many of my responsibilities as product lead at Veritonic. In a small but growing tech team, having the versatility to work beyond the fixed boundaries of design, development, or management is essential. I often find myself bouncing between organizing and planning, designing, and diving into code. 
+Long before I heard this term, this concept described many of my responsibilities as product lead at Veritonic. In a small but growing tech team, having the versatility to work beyond the fixed boundaries of design, development, or management is essential. I often find myself bouncing between organizing and planning, designing, and diving into code.
 
 Like the frontend designer role described in Brad’s post, I don’t just build static designs in photoshop. And at the same time, I’m not always coding. Instead, any design work I do focuses primarily on designing _in_ code and _for_ code. This approach produces "consumable" components in HTML/CSS/JS that can be easily adapted to a real application while leaving the functionality to a full stack or frontend developer.
 
