@@ -12,13 +12,15 @@ After some searching around the interwebs, we could not (at the time) find an ap
 
 While [@falicon](https://twitter.com/falicon) built the backend, I designed the frontend. The goal for this design was simplicity, as the problem we were addressing was the complication and information-overload found in most exchanges or trading/charting platforms. We simply needed an app to notify us when Ethereum hit a certain price. Thus, we ended up with the following features/specs:
 
-- Display the current Ethereum price
-- Send an email or text alert if the price goes above or below the value input
-- Create multiple alerts
-- Passcode login
-- Passcode reset
-- View existing alerts
-- Delete existing alert
+<ul class="list-disc pl-6">
+  <li>Display the current Ethereum price</li>
+  <li>Send an email or text alert if the price goes above or below the value input</li>
+  <li>Create multiple alerts</li>
+  <li>Passcode login</li>
+  <li>Passcode reset</li>
+  <li>View existing alerts</li>
+  <li>Delete existing alert</li>
+</ul>
 
 After experimenting with colors, layouts, and styles, I arrived at the final design.
 

@@ -11,9 +11,12 @@ Much has happened since my last blog post. Back in September, I discussed my str
 While much has happened in the world of crypto, even more has happened in the broader world of tech. We’ve seen major acquisitions, milestones in space exploration, and audio/voice take front and center stage, to name just a few.
 
 And in the past couple of months since my last post, I’ve done quite a bit of cool stuff with even cooler people. Over the next few weeks, I’ll be going into more depth in separate posts on some of the interesting side projects (and learning experiences) I have been involved with, including:
-- Designing an interface for an Ethereum price tracker
-- Experimenting with JavaScript and APIs through an utterly useless app for the lols
-- Hosting a Web Development workshop at the University of Connecticut
+
+<ul class="list-disc pl-6">
+  <li>Designing an interface for an Ethereum price tracker</li>
+  <li>Experimenting with JavaScript and APIs through an utterly useless app for the lols</li>
+  <li>Hosting a Web Development workshop at the University of Connecticut</li>
+</ul>
 
 I’m excited to share these past experiences, as there is a lot of catching up to do (hence the title of this post). But onto the future.
 
@@ -23,9 +26,9 @@ With the continued permeation of tech (along with the new ideas, people, and per
 
 Going forward, there are three key things I’m watching closely and will be looking to examine especially from a design and user experience perspective.
 
-## Three things I’m watching:
+<h2 class="text-3xl font-bold my-6">Three Things I’m Watching</h2>
 
-### Machine Learning
+<h3 class="text-2xl font-semibold my-6">Machine Learning</h3>
 
 Without a doubt, machine learning is top-of-mind for most of the tech world right now, and will likely continue to be so for the foreseeable future.
 
@@ -33,7 +36,7 @@ What I’m watching more specifically are the design implications and ways to in
 
 In other words, with even more data available to the user, how can we make sure it’s exactly what the user needs (seamless continuity from ML to user)?
 
-### Crypto/Blockchain/Finance
+<h3 class="text-2xl font-semibold my-6">Crypto/Blockchain/Finance</h3>
 
 While Bitcoin’s price (and the broader crypto market capitalization) may have corrected severely in recent weeks, it hasn’t stopped or even slowed the development of blockchain tech. 
 
@@ -41,7 +44,7 @@ We’ve seen a number of products and services emerge to fuel the market, includ
 
 We’ve also seen tremendous interest from the financial sector in utilizing blockchain technology itself to optimize their processes. This is what I’m watching closely. How can blockchain tech be applied to streamline the stock, bond, and derivatives markets, and the often complicated/convoluted processes within them for more effectively facilitating/recording transactions and connecting the parties involved?
 
-### Voice/Audio
+<h3 class="text-2xl font-semibold my-6">Voice/Audio</h3>
 
 Voice is the new touchscreen. As we’ve seen through Alexa, Google Assistant, and Siri, voice is becoming an integral part in the way we interface with computers and vice versa.
 
