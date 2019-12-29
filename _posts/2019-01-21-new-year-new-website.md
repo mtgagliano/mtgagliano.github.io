@@ -30,7 +30,7 @@ On the home page (or Latest Posts page), the links after the slash mark are dyna
 
 On post level pages, the post title is displayed after the slash, and the Latest Posts link stays persistent for easy access back to the home page.
 
-Using [TailwindCSS](https://tailwindcss.com), a new utility-based CSS framework, I was able to build the entire site with less than 50 lines of custom CSS.
+Using [TailwindCSS](https://tailwindcss.com), a new utility-based CSS framework, I was able to build the entire site with less than 50 lines of custom unminified CSS.
 
 With utility classes, TailwindCSS allows for easy rapid prototyping and nearly infinite customization, meaning there's no need to have to constantly override classes like you would when using Bootstrap.
 
