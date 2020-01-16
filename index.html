@@ -5,7 +5,7 @@ image: /assets/img/nyc.jpg
 ---
 
 <div class="px-6 pb-10 md:px-10">
-  <h1 class="font-serif font-black text-4xl md:text-5xl inline text-gray-900 leading-tight">Latest Posts</h1>
+  <h2 class="font-serif font-black text-4xl md:text-5xl inline text-gray-900 leading-tight">Latest Posts</h2>
   <span class="font-serif font-black text-4xl md:text-5xl inline text-gray-600 leading-tight">/</span>
   <div class="font-serif font-black text-xl md:text-5xl inline-block md:inline text-gray-600 leading-tight">
     {% for tag in site.tags %}
@@ -24,7 +24,7 @@ image: /assets/img/nyc.jpg
             <div class="h-48 w-auto bg-cover bg-no-repeat rounded-t bg-center" style="background-image: url('{{ post.image }}');"></div>
             <div class="p-6">
               <p class="text-gray-600 uppercase font-bold text-xs mb-2">{{ post.date | date_to_long_string }}</p>
-              <h2 class="font-bold text-xl mb-2 text-gray-900">{{ post.title }}</h2>
+              <h3 class="font-bold text-xl mb-2 text-gray-900">{{ post.title }}</h3>
               <p class="text-gray-700 text-base leading-normal">
                 {{ post.content | strip_html | truncatehtml | truncatewords: 40 }}
               </p>
