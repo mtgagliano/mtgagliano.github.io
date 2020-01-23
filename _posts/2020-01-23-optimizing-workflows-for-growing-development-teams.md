@@ -58,4 +58,4 @@ The new workflow and new tools serve to optimize how we add, organize, assign, a
 
 Like the product itself, we'll iterate this new workflow as needed, but it's a great start in creating the right conditions for developing at scale.
 
-_I'm always interested in learning how teams organize and execute. Do you have a workflow that works well for you and your team? [Let me know!](https://twitter.com/matttgagliano)_
+_I'm always interested in learning how teams organize and execute. Do you have a workflow that works well for you and your team? [Let me know!](https://twitter.com/matttgagliano/status/1220470863717376000)_
