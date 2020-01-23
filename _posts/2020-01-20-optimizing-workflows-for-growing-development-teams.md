@@ -3,7 +3,7 @@ layout: post
 tags: [ product, veritonic ]
 title: "Optimizing Workflows for Growing Development Teams"
 date: 2020-01-20
-image: /assets/img/nyc.jpg
+image: /assets/img/optimizing-workflows/workflow-schematic.png
 ---
 
 Optimizing Workflows for Growing Development Teams
