@@ -3,16 +3,14 @@ layout: post
 tags: [ product, veritonic ]
 title: "Optimizing Workflows for Growing Development Teams"
 date: 2020-01-20
-image: /assets/img/optimizing-workflows/workflow-schematic.png
+image: /assets/img/posts/optimizing-workflows/workflow-schematic.png
 ---
-
-Optimizing Workflows for Growing Development Teams
 
 If there is any common thread among my last few posts, it is this: optimize, systemize, and automate as much as you possibly can and your job will be easier, you’ll have more room for creative thinking, and you can reinvest that extra creativity to grow more effectively.
 
 It’s a task I’ve been wrestling with over the past year as we ramp up at Veritonic, and the roles and objectives shift from a small team testing product-market fit to a medium sized team building a scalable, powerful SaaS application for an even broader market.
 
-[Insert full workflow tree]
+![Matt Gagliano Optimized Workflow for Growing Startup Engineering Team]({{ site.baseurl }}/assets/img/posts/optimizing-workflows/workflow-schematic.png "Matt Gagliano Optimized Workflow for Growing Startup Engineering Team")
 
 When I first joined Veritonic part-time in 2016, we were a close, lean team of six. Along with @falicon, I was one of a two person dev team, and it was easy for us to collaborate in real-time. We would bounce ideas off one another, take in feedback, iterate quickly, and deliver features our clients valued.
 
