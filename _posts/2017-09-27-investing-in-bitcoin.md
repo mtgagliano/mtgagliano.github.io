@@ -35,3 +35,6 @@ Instead of buying in with a lump sum at today’s valuation, I schedule small, c
 Keeping a level head in the cryptocurrency market is no easy feat. But keeping up to date with news, while also keeping everything in perspective, can help make blockchain currencies a worthwhile investment.
 
 Ignore the fear, uncertainty, and doubt, and stick to your principles. Zoom out, and watch blockchain adoption increase over time. Cryptocurrencies are here to stay.
+
+
+_**Disclaimer:** The above references an opinion and is for information and entertainment purposes only. It is not intended to be financial advice. All opinions expressed on this website should not be construed as an inducement to buy or invest in Bitcoin, Altcoins, cryptocurrency, or any financial instrument. Seek a duly licensed professional for investment advice._
