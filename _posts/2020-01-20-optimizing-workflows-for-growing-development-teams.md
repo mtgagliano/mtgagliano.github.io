@@ -2,7 +2,7 @@
 layout: post
 tags: [ product, veritonic ]
 title: "Optimizing Workflows for Growing Development Teams"
-date: 2020-01-20
+date: 2020-01-23
 image: /assets/img/posts/optimizing-workflows/workflow-schematic.png
 ---
 
@@ -32,7 +32,7 @@ Among many great options like Basecamp, Monday, and Jira, we settled on Asana fo
 
 The new workflow culminates in a kanban-inspired sprint board that we call the Development Queue.
 
-[Insert Dev Queue mockup]
+![Engineering Team Development Workflow by Matt Gagliano]({{ site.baseurl }}/assets/img/posts/optimizing-workflows/dev-queue.png "Engineering Team Development Workflow by Matt Gagliano")
 
 The Development Queue is divided into multiple columns that map directly to our development/release stages behind the scenes. Beginning with an “Assigned” column, tasks are moved to the “In-Progress” column where they are built in a branch, tested on our development site, and moved to the next column, “In QA,” while simultaneously merged and pulled to our closed beta site.
 
@@ -44,7 +44,7 @@ Bugs are sorted based on priority, which ranges from Critical to High Priority a
 
 Critical bugs will often be immediately assigned to the Dev Queue, while High Priority and Low Priority bugs will be discussed and assigned at one of our semi-weekly engineering standup meetings.
 
-[Insert bug tracking board mockup]
+![Engineering Team Bug Tracking Workflow by Matt Gagliano]({{ site.baseurl }}/assets/img/posts/optimizing-workflows/bug-tracking.png "Engineering Team Bug Tracking Workflow by Matt Gagliano")
 
 The Feature Requests board is divided into columns in a similar kanban-style format for each of the main sections of the Veritonic platform. Tasks are added to the relevant column corresponding to the section of the platform where the feature will be most appropriate. The tasks are added as cards and discussed at a weekly product roundtable, then prioritized and assigned to the Dev Queue accordingly.
 
