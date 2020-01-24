@@ -54,7 +54,7 @@ The final pieces of the task funnel are the active/long-term project boards, whi
 
 And like the Bug Tracking and Feature Requests boards, the individual project boards are also used to source and funnel tasks into the Development Queue. This way, every card in the Developmenet Queue is sourced from and associated with one of the other boards, making it easy to sort and prioritize without worrying about a backlog of tasks piling up in the main field of view.
 
-The new workflow and new tools serve to optimize how we add, organize, assign, and complete tasks across the entire lifecycle of development from concept to deploy. After a 3 month trial run of this new system in the last quarter of 2019, we've seen great results and plan to keep going with it. In just the time that we've been using it, we've increased our bug resolutions and improved our holistic alignment of how each smaller task builds into the larger product vision.
+The new workflow and new tools serve to optimize how we add, organize, assign, and complete tasks across the entire lifecycle of development from concept to deploy. After a 3 month trial run of this new system in the last quarter of 2019, we've seen great results and plan to keep going with it. In just the time that we've been using it, we've increased our bug resolutions and improved our holistic alignment and understanding of how each smaller task builds into the larger product vision.
 
 Similar to the product itself, we'll iterate this new workflow as needed, but it's a great starting point in creating the right conditions for successfully developing at scale.
 
