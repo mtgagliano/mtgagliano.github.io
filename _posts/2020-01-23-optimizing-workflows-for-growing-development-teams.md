@@ -6,7 +6,7 @@ date: 2020-01-23
 image: /assets/img/posts/optimizing-workflows/workflow-schematic.png
 ---
 
-If there is any common thread among my last few posts, it is this: optimize, systemize, and automate as much as you possibly can and your job will be easier, you’ll have more room for creative thinking, and you can reinvest that extra creativity to grow more effectively.
+If there is any common thread among my [last few posts]({{ site.baseurl }}{% post_url 2019-10-10-designing-in-code %}), it is this: optimize, systemize, and automate as much as you possibly can and your job will be easier, you’ll have more room for creative thinking, and you can reinvest that extra creativity to grow more effectively.
 
 It’s a task I’ve been wrestling with over the past year as we ramp up at [Veritonic](https://www.veritonic.com), and the roles and objectives shift from a small team testing product-market fit to a medium sized team building a scalable, powerful SaaS application for an even broader market.
 
