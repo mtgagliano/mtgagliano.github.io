@@ -30,7 +30,7 @@ These days, product management tools do more or less the same thing. Most have k
 
 Among many great options like Basecamp, Monday, and Jira, we settled on Asana for its multitude of features, great UX, and easy integration into our newly created workflow.
 
-The new workflow culminates in a kanban-inspired sprint board that we call the Development Queue.
+This new workflow culminates in a kanban-inspired sprint board that we call the Development Queue.
 
 ![Engineering Team Development Workflow by Matt Gagliano]({{ site.baseurl }}/assets/img/posts/optimizing-workflows/dev-queue.png "Engineering Team Development Workflow by Matt Gagliano")
 
