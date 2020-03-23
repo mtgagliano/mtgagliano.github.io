@@ -10,7 +10,7 @@ social:
     - https://www.instagram.com/matttgagliano/
     - https://github.com/matttgagliano
 url: "https://www.mattgagliano.com"
-logo: /assets/img/mattgagliano.jpg
+logo: /assets/img/mattgagliano.png
 
 plugins:
   - jekyll-paginate
