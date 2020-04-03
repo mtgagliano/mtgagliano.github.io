@@ -26,6 +26,10 @@ a:hover, .card:hover, .btn-transition {
   min-height: 64px;
   min-width: 64px;
 }
+.profile-size img {
+  top: 0;
+  left: 0;
+}
 .card.margin:hover {
   margin-top: -0.25rem;
   margin-bottom: 0.25rem;
