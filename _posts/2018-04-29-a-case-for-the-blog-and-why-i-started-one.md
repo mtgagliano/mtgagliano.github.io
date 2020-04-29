@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: [ bigpicture, webdev, design ]
+tags: [ big-picture, webdev, design ]
 title: "A Case for the Blog and Why I Started One"
 date: 2018-04-29
 image: /assets/img/posts/whyblog2.jpg

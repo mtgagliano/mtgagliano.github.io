@@ -86,7 +86,7 @@
 
       <div class="px-6 pb-6">
         {% for tag in page.tags %}
-          <a href="/tags/{{ tag }}/" class="inline-block bg-gray-400 hover:bg-gray-500 rounded-full px-3 py-1 text-sm font-semibold text-gray-800 mr-2 no-underline">{{ tag }}</a>
+          <a href="/tags/{{ tag }}/" class="inline-block bg-gray-400 hover:bg-gray-500 rounded-full px-3 py-1 text-sm font-semibold text-gray-800 mr-2 no-underline">{{ tag | replace: "-"," " }}</a>
         {% endfor %}
         <span class="inline-block pt-4 md:px-3 md:py-1 text-sm font-semibold text-gray-600 uppercase">{{ page.date | date_to_long_string }}</span>
       </div>
