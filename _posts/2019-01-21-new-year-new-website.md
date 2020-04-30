@@ -75,7 +75,7 @@ This makes it easy to prototype ideas without spending time writing new CSS. And
 <a href="/tags/design/" class="tag">design</a>
 ```
 
-I stumbled upon Tailwind on Twitter through [@adamwathan](https://twitter.com/adamwathan) and [@steveschoger](https://twitter.com/steveschoger), who are among the creators of the framework. I had been following the project for about a year prior but had not really explored it until now.
+I stumbled upon Tailwind on Twitter through @adamwathan and @steveschoger, who are among the creators of the framework. I had been following the project for about a year prior but had not really explored it until now.
 
 It's available via CDN, but installing and configuring Tailwind with npm opens up even more possibilities for customization and tailoring for your specific project (like the `@apply` example above). It's a framework that I will most definitely use again, and I'm exploring ways to bring it into our design system at Veritonic.
 

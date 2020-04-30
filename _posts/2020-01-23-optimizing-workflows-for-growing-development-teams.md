@@ -12,7 +12,7 @@ It’s a task I’ve been wrestling with over the past year as we ramp up at [Ve
 
 ![Matt Gagliano Optimized Workflow for Growing Startup Engineering Team]({{ site.baseurl }}/assets/img/posts/optimizing-workflows/workflow-schematic.png "Matt Gagliano Optimized Workflow for Growing Startup Engineering Team")
 
-When I first joined Veritonic part-time in 2016, we were a close, lean team of six. Along with [@falicon](https://twitter.com/falicon), I was one of a two person dev team, and it was easy for us to collaborate in real-time. We would bounce ideas off one another, take in feedback, iterate quickly, and deliver features our clients valued.
+When I first joined Veritonic part-time in 2016, we were a close, lean team of six. Along with @falicon, I was one of a two person dev team, and it was easy for us to collaborate in real-time. We would bounce ideas off one another, take in feedback, iterate quickly, and deliver features our clients valued.
 
 Throughout this early period, we organized our tasks in an informal and unstructured way. We used Trello to aggregate bugs and cards, albeit with no specific workflow. Without many moving parts and with fairly straightforward product goals, this system worked well.
 

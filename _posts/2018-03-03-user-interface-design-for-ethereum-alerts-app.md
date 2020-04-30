@@ -6,11 +6,11 @@ date: 2018-03-03
 image: /assets/img/posts/ethereum-alerts/main-ui.png
 ---
 
-In my [last post]({{ site.baseurl }}{% post_url 2018-02-14-looking-back-months-irl-are-like-years-in-tech %}), I promised to cover a few of the cool things I’ve been working on over the past few months. Back in late summer/early fall 2017, as the cryptocurrency market was steadily growing, [@falicon](https://twitter.com/falicon) and I were looking for a way to automatically notify ourselves if (or really, *when*) Ethereum’s price hit certain targets.
+In my [last post]({{ site.baseurl }}{% post_url 2018-02-14-looking-back-months-irl-are-like-years-in-tech %}), I promised to cover a few of the cool things I’ve been working on over the past few months. Back in late summer/early fall 2017, as the cryptocurrency market was steadily growing, @falicon and I were looking for a way to automatically notify ourselves if (or really, *when*) Ethereum’s price hit certain targets.
 
 After some searching around the interwebs, we could not (at the time) find an application that would accomplish exactly what we were looking for. So we set out to build it ourselves as a rainy day project.
 
-While [@falicon](https://twitter.com/falicon) built the backend, I designed the frontend. The goal for this design was simplicity, as the problem we were addressing was the complication and information-overload found in most exchanges or trading/charting platforms. We simply needed an app to notify us when Ethereum hit a certain price. Thus, we ended up with the following features/specs:
+While @falicon built the backend, I designed the frontend. The goal for this design was simplicity, as the problem we were addressing was the complication and information-overload found in most exchanges or trading/charting platforms. We simply needed an app to notify us when Ethereum hit a certain price. Thus, we ended up with the following features/specs:
 
 <ul class="list-disc pl-6">
   <li>Display the current Ethereum price</li>

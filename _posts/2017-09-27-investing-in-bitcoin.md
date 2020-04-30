@@ -16,9 +16,9 @@ Before investing in anything, having confidence in its long-term value is a must
 
 In today’s world, we’ve seen global trade and commerce reach all-time highs. The internet and easy access to connected devices have enabled products and services to be exchanged across continents at a volume never before seen in human history.
 
-Yet amidst this incredible boom in e-commerce, the centuries-old, inefficient system of fiat currency and financial institutions — both backed only by trust — still powers it all.
+Yet amidst this incredible boom in e-commerce, modern monetary theory still powers an economy that is no longer backed by a gold standard. And since 1971, we've seen the effects of these policies play out, as outlined through a series of infographics on [WTF Happened In 1971?](https://wtfhappenedin1971.com/) and alluded to in David Perell's [What the Hell is Going On?](https://www.perell.com/blog/what-the-hell-is-going-on) that reveal the disconnect between productivity growth and livelihood.
 
-In an interconnected and global economy, the future lies in decentralized currency. Blockchain technology has the power to increase efficiency, security, and accessibility of computing and transactions at scale. And with that in mind, the long-term viability of cryptocurrency looks promising.
+In an interconnected and global economy, the future lies in decentralized, immutable currency. Blockchain technology has the power to increase efficiency, security, and accessibility of commerce and transactions at scale. And with that in mind, the long-term viability of cryptocurrency looks promising.
 
 <h2 class="text-3xl font-bold my-6">Dollar Cost Averaging</h2>
 
@@ -28,7 +28,7 @@ Could this be the height of the market in the short-term? Quite possibly. But co
 
 With this in mind, I believe embracing a disciplined approach for long-term profits is necessary for entry into the cryptocurrency market.
 
-Instead of buying in with a lump sum at today’s valuation, I schedule small, consistent investments each week or month despite its valuation at the time. Whether it’s $25, $50, $100, or $1000, these weekly or monthly investments help to defray the short term losses (and possibly gains). But long-term, the real-world usage of cryptocurrencies will increase, and so will their value.
+Instead of buying in with a lump sum at today’s price, I schedule small, consistent investments each week or month despite its valuation at the time. Whether it’s $25, $50, $100, or $1000, these weekly or monthly investments help to defray the short-term losses (and possibly short-term gains). But long-term, the real-world usage of cryptocurrencies will increase, and so will their value.
 
 <h2 class="text-3xl font-bold my-6">Eyes on the Prize</h2>
 
@@ -36,5 +36,8 @@ Keeping a level head in the cryptocurrency market is no easy feat. But keeping u
 
 Ignore the fear, uncertainty, and doubt, and stick to your principles. Zoom out, and watch blockchain adoption increase over time. Cryptocurrencies are here to stay.
 
+***
 
-_**Disclaimer:** The above references an opinion and is for information and entertainment purposes only. It is not intended to be financial advice. All opinions expressed on this website should not be construed as an inducement to buy or invest in Bitcoin, altcoins, cryptocurrency, securities, or any financial instrument. Seek a duly licensed professional for investment advice._
+_**Disclaimer:** The above references an opinion and is for informational and entertainment purposes only. It is not intended to be financial advice. All opinions expressed on this website should not be construed as an inducement to buy or invest in Bitcoin, altcoins, cryptocurrency, securities, or any financial instrument. Seek a duly licensed professional for investment advice._
+
+_Last updated on 30 April 2020._

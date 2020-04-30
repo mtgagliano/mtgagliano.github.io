@@ -18,6 +18,10 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-admin
+  - jekyll-mentions
+
+jekyll-mentions:
+  base_url: https://twitter.com
 
 paginate: 6
 paginate_path: "/page:num/"
