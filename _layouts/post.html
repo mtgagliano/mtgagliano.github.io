@@ -13,7 +13,7 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-config" content="/assets/img/favicons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="{{ '/assets/css/tailwind.min.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link href="/assets/css/syntax.css" rel="stylesheet" >
     <script defer src="https://use.fontawesome.com/releases/v5.6.3/js/all.js" integrity="sha384-EIHISlAOj4zgYieurP0SdoiBYfGJKkgWedPHH4jCzpCXLmzVsw1ouK59MuUtP4a1" crossorigin="anonymous"></script>
@@ -30,7 +30,7 @@
   </head>
   <body>
 
-    <div class="w-full h-2 bg-topbar-gradient"></div>
+    <div class="w-full h-2 bg-blue-500"></div>
 
     <div class="container mx-auto">
       <div class="px-6 py-6 lg:py-10 lg:px-10 block lg:flex lg:justify-between lg:items-center font-sans">
@@ -40,15 +40,15 @@
             <div class="shadow-inner absolute inset-0 rounded-full"></div>
           </div>
           <div class="text-lg">
-            <a href="/" class="text-xl text-gray-900 leading-tight font-black no-underline">{{ site.title | default: site.github.repository_name }}</a>
-            <p class="text-gray-600 leading-tight">Designer and builder of digital things.</p>
+            <a href="/" class="text-xl text-gray-800 leading-tight font-black no-underline">{{ site.title | default: site.github.repository_name }}</a>
+            <p class="text-gray-500 leading-tight">Designer and builder of digital things.</p>
           </div>
         </div>
         <div class="flex items-center justify-between text-xl md:ml-auto md:mr-5">
-          <a href="https://twitter.com/matttgagliano" class="px-5 py-3 text-gray-600 hover:text-gray-700" target="_blank" title="Follow Matt on Twitter."><i class="fab fa-twitter"></i></a>
-          <a href="https://www.linkedin.com/in/matttgagliano/" class="px-5 py-3 text-gray-600 hover:text-gray-700" target="_blank" title="Connect with Matt on LinkedIn."><i class="fab fa-linkedin-in"></i></a>
-          <a href="https://github.com/matttgagliano" class="px-5 py-3 text-gray-600 hover:text-gray-700" target="_blank" title="Code with Matt on GitHub."><i class="fab fa-github"></i></a>
-          <a href="https://dribbble.com/matttgagliano" class="px-5 py-3 text-gray-600 hover:text-gray-700" target="_blank" title="Design with Matt on Dribbble."><i class="fab fa-dribbble"></i></a>
+          <a href="https://twitter.com/matttgagliano" class="px-5 py-3 text-gray-500 hover:text-gray-700" target="_blank" title="Follow Matt on Twitter."><i class="fab fa-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/matttgagliano/" class="px-5 py-3 text-gray-500 hover:text-gray-700" target="_blank" title="Connect with Matt on LinkedIn."><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/matttgagliano" class="px-5 py-3 text-gray-500 hover:text-gray-700" target="_blank" title="Code with Matt on GitHub."><i class="fab fa-github"></i></a>
+          <a href="https://dribbble.com/matttgagliano" class="px-5 py-3 text-gray-500 hover:text-gray-700" target="_blank" title="Design with Matt on Dribbble."><i class="fab fa-dribbble"></i></a>
         </div>
         <div class="flex items-center">
           <!-- Begin Mailchimp Signup Form -->
@@ -56,7 +56,7 @@
             <form action="https://mattgagliano.us20.list-manage.com/subscribe/post?u=5f0c995d8307ad24d953c548b&amp;id=a4963dfe93" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
               <div id="mc_embed_signup_scroll" class="flex items-center">
                 <div class="mc-field-group flex-grow">
-                  <input type="email" value="" name="EMAIL" class="required email bg-gray-200 p-5 rounded-l rounded-r-none border-none text-sm md:text-base leading-none w-full h-12 focus:outline-none subscribe-input" placeholder="Get new posts via email." id="mce-EMAIL">
+                  <input type="email" value="" name="EMAIL" class="placeholder-gray-900 required email bg-gray-100 hover:bg-gray-200 focus:bg-gray-200 p-5 rounded-l-md rounded-r-none border-none text-sm md:text-base leading-none w-full h-12 focus:outline-none subscribe-input text-gray-900 transition-all hover:transition-all" placeholder="Get new posts via email." id="mce-EMAIL">
                 </div>
                 <div id="mce-responses" class="clear">
                   <div class="response" id="mce-error-response" style="display:none"></div>
@@ -66,7 +66,7 @@
                   <input type="text" name="b_5f0c995d8307ad24d953c548b_a4963dfe93" tabindex="-1" value="">
                 </div>
                 <div class="clear flex-no-grow">
-                  <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button px-5 bg-gray-400 hover:bg-gray-500 text-gray-700 hover:text-gray-800 cursor-pointer font-bold rounded-r rounded-l-none border-none btn-transition text-sm md:text-base leading-none h-12">
+                  <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button px-5 bg-blue-500 hover:bg-blue-600 text-white cursor-pointer font-bold rounded-r-md rounded-l-none border-none btn-transition text-sm md:text-base leading-none h-12 transition-all hover:transition-all">
                 </div>
               </div>
             </form>
@@ -79,19 +79,19 @@
     <div class="max-w-3xl mx-auto">
 
       <div class="px-6 pb-4">
-        <a href="/" class="font-serif font-black text-4xl md:text-5xl inline text-gray-600 hover:text-gray-700 no-underline leading-tight">Latest Posts</a>
-        <span class="font-serif font-black text-4xl md:text-5xl inline text-gray-600 leading-tight">/</span>
+        <a href="/" class="font-serif font-black text-4xl md:text-5xl inline text-gray-500 hover:text-gray-700 no-underline leading-tight">Latest Posts</a>
+        <span class="font-serif font-black text-4xl md:text-5xl inline text-gray-500 leading-tight">/</span>
         <h1 class="font-serif font-black text-4xl md:text-5xl text-gray-900 inline leading-tight">{{ page.title }}</h1>
       </div>
 
       <div class="px-6 pb-6">
         {% for tag in page.tags %}
-          <a href="/tags/{{ tag }}/" class="inline-block bg-gray-400 hover:bg-gray-500 rounded-full px-3 py-1 text-sm font-semibold text-gray-800 mr-2 no-underline">{{ tag | replace: "-"," " }}</a>
+          <a href="/tags/{{ tag }}/" class="inline-block bg-gray-200 hover:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-800 mr-2 no-underline">{{ tag | replace: "-"," " }}</a>
         {% endfor %}
-        <span class="inline-block pt-4 md:px-3 md:py-1 text-sm font-semibold text-gray-600 uppercase">{{ page.date | date_to_long_string }}</span>
+        <span class="inline-block pt-4 md:px-3 md:py-1 text-sm font-semibold text-gray-400 uppercase">{{ page.date | date_to_long_string }}</span>
       </div>
 
-      <div class="px-6 pb-10 post-content font-sans text-xl text-gray-700 leading-normal">{{ content }}</div>
+      <div class="px-6 pb-10 post-content font-sans text-xl text-gray-500 leading-normal">{{ content }}</div>
 
     </div>
 
@@ -123,7 +123,7 @@
             <form action="https://mattgagliano.us20.list-manage.com/subscribe/post?u=5f0c995d8307ad24d953c548b&amp;id=a4963dfe93" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
               <div id="mc_embed_signup_scroll" class="flex items-center">
                 <div class="mc-field-group flex-grow">
-                  <input type="email" value="" name="EMAIL" class="required email bg-blue-100 p-5 rounded-l rounded-r-none border-none text-sm md:text-base leading-none w-full h-12 focus:outline-none subscribe-input" placeholder="Get new posts via email." id="mce-EMAIL">
+                  <input type="email" value="" name="EMAIL" class="placeholder-blue-900 required email bg-blue-50 hover:bg-blue-100 focus:bg-blue-100 p-5 rounded-l-md rounded-r-none border-none text-sm md:text-base leading-none w-full h-12 focus:outline-none subscribe-input text-blue-900 transition-all hover:transition-all" placeholder="Get new posts via email." id="mce-EMAIL">
                 </div>
                 <div id="mce-responses" class="clear">
                   <div class="response" id="mce-error-response" style="display:none"></div>
@@ -133,7 +133,7 @@
                   <input type="text" name="b_5f0c995d8307ad24d953c548b_a4963dfe93" tabindex="-1" value="">
                 </div>
                 <div class="clear flex-no-grow">
-                  <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button px-5 bg-blue-600 hover:bg-blue-700 text-blue-200 hover:text-blue-100 cursor-pointer font-bold rounded-r rounded-l-none border-none btn-transition text-sm md:text-base leading-none h-12">
+                  <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button px-5 bg-blue-500 hover:bg-blue-600 text-white cursor-pointer font-bold rounded-r-md rounded-l-none border-none btn-transition text-sm md:text-base leading-none h-12 transition-all hover:transition-all">
                 </div>
               </div>
             </form>
