@@ -35,7 +35,7 @@ a:hover, .card:hover, .btn-transition {
 }
 .post-content p img {
   width: 100%;
-  border-radius: .25rem;
+  border-radius: .375rem;
   border: 1px solid #F1F5F8;
 }
 .post-content p a {
@@ -51,17 +51,6 @@ a:hover, .card:hover, .btn-transition {
 }
 .footer-background {
   background-image: linear-gradient(to left, #12283A, #1C3D5A);
-}
-
-.subscribe-input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #718096;
-  opacity: 1; /* Firefox */
-}
-.subscribe-input:-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: #718096;
-}
-.subscribe-input::-ms-input-placeholder { /* Microsoft Edge */
-  color: #718096;
 }
 
 @media (min-width: 768px) {
