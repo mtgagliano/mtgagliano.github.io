@@ -5,11 +5,11 @@ image: /assets/img/nyc.jpg
 ---
 
 <div class="px-6 pb-10 lg:px-10">
-  <a href="/" class="no-underline text-gray-500 hover:text-gray-700">
+  <a href="/" class="no-underline text-gray-400 hover:text-gray-600">
     <h2 class="font-serif font-black text-4xl md:text-5xl inline">Latest Posts</h2>
   </a>
-  <span class="font-serif font-black text-4xl md:text-5xl inline text-gray-500">/</span>
-  <div class="font-serif font-black text-xl md:text-5xl inline-block md:inline text-gray-500">
+  <span class="font-serif font-black text-4xl md:text-5xl inline text-gray-400">/</span>
+  <div class="font-serif font-black text-xl md:text-5xl inline-block md:inline text-gray-400">
     {% capture tags %}
       {% for tag in site.tags %}
         {{ tag[1].size | plus: 1000 }}#{{ tag[0] }}#{{ tag[1].size }}
@@ -18,7 +18,7 @@ image: /assets/img/nyc.jpg
     {% assign sortedtags = tags | split:' ' | sort %}
     {% for tag in sortedtags reversed %}
         {% assign tagitems = tag | split: '#' %}
-        <a href="/tags/{{ tagitems[1] }}" class="no-underline text-gray-500 hover:text-gray-700">{{ tagitems[1] | replace: "-"," " }}</a>{% if forloop.last == false %},{% endif %}
+        <a href="/tags/{{ tagitems[1] }}" class="no-underline text-gray-400 hover:text-gray-600">{{ tagitems[1] | replace: "-"," " }}</a>{% if forloop.last == false %},{% endif %}
     {% endfor %}
   </div>
 </div>
